@@ -4,7 +4,7 @@
 <b>CARACTÉRISTIQUES</b>
 
 • Aucun inscription, service Web ou nuage n’est requis ! Ce porte-monnaie est décentralisé et pair à pair.
-• Affichage du montant de bitcoins en BTC, mBTC et µBTC.
+• Affichage du montant de bitcoins en BTC, mXPC et µXPC.
 • Conversion vers et à partir de monnaies nationales.
 • Envoi et réception de bitcoins par NFC, codes QR ou URL Bitcoin.
 • Quand vous êtes hors ligne, vous pouvez quand même payer par Bluetooth.

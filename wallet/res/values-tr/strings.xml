@@ -245,8 +245,8 @@
   <string name="preferences_precision_labels_8">BTC, 8 ondalık</string>
   <string name="preferences_precision_labels_6">BTC, 6 ondalık</string>
   <string name="preferences_precision_labels_4">BTC, 4 ondalık</string>
-  <string name="preferences_precision_labels_2_3">mBTC, 2 ondalık</string>
-  <string name="preferences_precision_labels_0_6">µBTC, ondalıksız</string>
+  <string name="preferences_precision_labels_2_3">mXPC, 2 ondalık</string>
+  <string name="preferences_precision_labels_0_6">µXPC, ondalıksız</string>
   <string name="preferences_own_name_title">Kendi adınız</string>
   <string name="preferences_own_name_summary">Adınız veya şirketinizin adı, müşterilerinize gönderdiğiniz ödeme taleplerine eklenecektir.</string>
   <string name="preferences_own_name_dialog_message">Kısa tut.</string>

@@ -4,7 +4,7 @@
 <b>ÖZELLİKLER</b>
 
 • Kayıt olmaya, web ya da bulut hizmetine gerek yoktur. Bu cüzdan merkezsiz ve eşten eşedir.
-• Bitcoin miktarını BTC, mBTC ve µBTC olarak göster.
+• Bitcoin miktarını BTC, mXPC ve µXPC olarak göster.
 • Ulusal para birimlerine ve bu para birimlerinden dönüştürme.
 • QR kodları, Bitcoin bağlantıları ve yakın alan iletişimi ile Bitcoin alımı ve gönderilmesi.
 • Çevrimdışı olduğunuzda Bluetooth vasıtasıyla ödemeler.

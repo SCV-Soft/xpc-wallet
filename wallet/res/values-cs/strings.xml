@@ -244,8 +244,8 @@
   <string name="preferences_precision_labels_8">BTC, 8 desetinných míst</string>
   <string name="preferences_precision_labels_6">BTC, 6 desetinných míst</string>
   <string name="preferences_precision_labels_4">BTC, 4 desetinná místa</string>
-  <string name="preferences_precision_labels_2_3">mBTC, 2 desetinná místa</string>
-  <string name="preferences_precision_labels_0_6">µBTC, bez desetinných míst</string>
+  <string name="preferences_precision_labels_2_3">mXPC, 2 desetinná místa</string>
+  <string name="preferences_precision_labels_0_6">µXPC, bez desetinných míst</string>
   <string name="preferences_own_name_title">Vlastní jméno</string>
   <string name="preferences_own_name_summary">Vaše jméno nebo název vaší společnosti, který bude přidán k žádostem o platbu, které vystavíte svým zákazníkům.</string>
   <string name="preferences_own_name_dialog_message">Snažte se to zkrátit.</string>

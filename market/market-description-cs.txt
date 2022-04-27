@@ -4,7 +4,7 @@
 <b>FUNKCE</b>
 
 • Není třeba žádná registrace, webová služba ani cloud! Toto je peer to peer decentralizovaná peněženka.
-• Zobrazení Bitcoin částek v BTC, mBTC a µBTC.
+• Zobrazení Bitcoin částek v BTC, mXPC a µXPC.
 • Přepočet z a do národních měn.
 • Odesílání a přijímání plateb přes NFC, QR kódy nebo Bitcoin URL.
 • Pokud jste offline, stále můžete platit přes Bluetooth.

@@ -4,7 +4,7 @@
 <b>CARACTERÍSTICAS</b>
 
 • Não requer cadastro em nenhum serviço! Esta carteira é descentralizada e "ponto a ponto (P2P)".
-• Exibe a quantidade de Bitcoins em BTC, mBTC e µBTC.
+• Exibe a quantidade de Bitcoins em BTC, mXPC e µXPC.
 • Conversão para moedas nacionais.
 • Envio e recebimento de Bitcoins via NFC, códigos QR ou endereços Bitcoin.
 • Quando você estiver off-line, você ainda pode pagar via Bluetooth.

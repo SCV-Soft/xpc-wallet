@@ -4,7 +4,7 @@
 <b>FUNKTIONER</b>
 
 • Ingen registrering, webservice eller sky behøves! Tegnebogen er decentraliseret og peer-to-peer.
-• Visning af Bitcoin-beløb i BTC, mBTC og µBTC.
+• Visning af Bitcoin-beløb i BTC, mXPC og µXPC.
 • Konvertering til og fra lokale valutaer.
 • Afsendelse og modtagelse af Bitcoin via NFC, QR-koder eller Bitcoin-URLer.
 • Når du er offline, kan du stadig betale via Bluetooth.

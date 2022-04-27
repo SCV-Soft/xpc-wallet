@@ -4,7 +4,7 @@
 <b>NOWOŚCI</b>
 
 • Bez rejestracji, przeglądarki i połączenia z chmurą. Ten portfel jest zdecentralizowany i peer-to-peer.
-• Wyświetlaj ilość bitcoinów w BTC, mBTC lub µBTC.
+• Wyświetlaj ilość bitcoinów w BTC, mXPC lub µXPC.
 • Przelicznik z/do walut narodowych.
 • Wysyłaj i otrzymuj bitcoiny przy pomocy NFC, QRcode lub Bitcoin URL.
 • Kiedy jesteś offline możesz nadal płacić  przy pomocy Bluetooth.

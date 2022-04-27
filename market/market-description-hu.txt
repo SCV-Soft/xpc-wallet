@@ -4,7 +4,7 @@
 <b>JELLEMZŐK</b>
 
 • Nincs regisztráció és nem szükséges semmiféle háttéralkalmazás futtatása (web, vagy cloud)! Decentralizált és közvetlen (P2P).
-• Bitcoin összeg megjelenítési módok: BTC, mBTC és µBTC.
+• Bitcoin összeg megjelenítési módok: BTC, mXPC és µXPC.
 • Átváltás a saját valutádra, oda-vissza.
 • Bitcoin küldés és fogadás NFC-n, QR kódokon vagy Bitcoin URL-eken keresztül.
 • Offline állapotban is fizethetsz - Bluetooth segítségével.

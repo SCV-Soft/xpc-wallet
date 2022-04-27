@@ -238,8 +238,8 @@
   <string name="preferences_precision_labels_8">BTC, 8 desimaalia</string>
   <string name="preferences_precision_labels_6">BTC, 6 desimaalia</string>
   <string name="preferences_precision_labels_4">BTC, 4 desimaalia</string>
-  <string name="preferences_precision_labels_2_3">mBTC, 2 desimaalia</string>
-  <string name="preferences_precision_labels_0_6">µBTC, ei desimaalia</string>
+  <string name="preferences_precision_labels_2_3">mXPC, 2 desimaalia</string>
+  <string name="preferences_precision_labels_0_6">µXPC, ei desimaalia</string>
   <string name="preferences_own_name_title">Oma nimi</string>
   <string name="preferences_own_name_summary">Nimeä itsesi lisätäksesi nimesi maksupyyntöihin. Yritä pitää se lyhyenä.</string>
   <string name="preferences_send_coins_autoclose_title">Sulje kolikoiden lähetysikkuna automaattisesti</string>

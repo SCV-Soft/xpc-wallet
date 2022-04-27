@@ -4,7 +4,7 @@
 <b>FUNCIONALIDADES</b>
 
 • Não é necessário registo, serviço da Web ou nuvem! Esta carteira é descentralizada e de par-a-par.
-• Exibir o valor Bitcoin em BTC, mBTC e µBTC.
+• Exibir o valor Bitcoin em BTC, mXPC e µXPC.
 • Conversão de e para as moedas nacionais.
 • Enviar e receber Bitcoins via NFC, códigos QR ou URLs Bitcoin.
 • Quando estiver off-line, ainda pode pagar via Bluetooth.

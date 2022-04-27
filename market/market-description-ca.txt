@@ -4,7 +4,7 @@
 <b>CARACTERÍSTIQUES</b>
 
 • Sense enregistrar-se ni amb necessitat d'un servei web o al núvol!. Aquesta cartera és descentralitzada i de parell a parell.
-• Mostra l'import de bitcoin en BTC, mBTC i µBTC.
+• Mostra l'import de bitcoin en BTC, mXPC i µXPC.
 • Conversió cap a i des de divises nacionals.
 • Enviar i rebre bitcoins a través d'NFC, codis QR i adreces Bitcoin.
 • Quan ets fora de línia, encara pots pagar a través de Bluetooth.

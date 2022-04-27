@@ -224,8 +224,8 @@
   <string name="preferences_precision_labels_8">BTC, 8 casas decimais</string>
   <string name="preferences_precision_labels_6">BTC, 6 casas decimais</string>
   <string name="preferences_precision_labels_4">BTC, 4 casas decimais</string>
-  <string name="preferences_precision_labels_2_3">mBTC, 2 casas decimais</string>
-  <string name="preferences_precision_labels_0_6">µBTC, nenhuma casa decimal</string>
+  <string name="preferences_precision_labels_2_3">mXPC, 2 casas decimais</string>
+  <string name="preferences_precision_labels_0_6">µXPC, nenhuma casa decimal</string>
   <string name="preferences_own_name_title">Seu nome</string>
   <string name="preferences_own_name_summary">O seu nome, para ser adicionado nas requisições de pagamentos. Tente usar um nome curto.</string>
   <string name="preferences_send_coins_autoclose_title">Fechar diálogo de envio automaticamente</string>
