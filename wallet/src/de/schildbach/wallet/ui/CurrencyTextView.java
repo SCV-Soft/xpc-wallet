@@ -107,12 +107,13 @@ public final class CurrencyTextView extends TextView {
         final MonetarySpannable text;
 
         if (amount != null)
-            text = new MonetarySpannable(format, alwaysSigned, amount).applyMarkup(
+            text = new MonetarySpannable(format, alwaysSigned, amount)
+                    .applyMarkup(
                     new Object[] { prefixRelativeSizeSpan, prefixScaleXSpan, prefixColorSpan },
                     new Object[] { insignificantRelativeSizeSpan });
         else
             text = null;
 
-        setText(text);
+        setText(text == null ? "": text.toString().replace("BTC", "XPC") );
     }
 }

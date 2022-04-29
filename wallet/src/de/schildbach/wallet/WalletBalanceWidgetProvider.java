@@ -64,7 +64,7 @@ public class WalletBalanceWidgetProvider extends AppWidgetProvider {
         final PendingResult result = goAsync();
         AsyncTask.execute(() -> {
             final WalletApplication application = (WalletApplication) context.getApplicationContext();
-            final Coin balance = application.getWallet().getBalance(BalanceType.ESTIMATED);
+            final Coin balance = application.getWallet().getBalance(BalanceType.ESTIMATED_SPENDABLE);
             final Configuration config = application.getConfiguration();
             final ExchangeRatesRepository exchangeRatesRepository = ExchangeRatesRepository.get(application);
             final ExchangeRateEntry exchangeRate = config.isEnableExchangeRates() ?
@@ -153,9 +153,9 @@ public class WalletBalanceWidgetProvider extends AppWidgetProvider {
         else if (MonetaryFormat.CODE_UBTC.equals(currencyCode))
             views.setImageViewResource(R.id.widget_wallet_prefix, R.drawable.currency_symbol_ubtc);
 
-        views.setTextViewText(R.id.widget_wallet_balance_btc, balanceStr);
-        views.setViewVisibility(R.id.widget_wallet_balance_local, localBalanceStr != null ? View.VISIBLE : View.GONE);
-        views.setTextViewText(R.id.widget_wallet_balance_local, localBalanceStr);
+         views.setTextViewText(R.id.widget_wallet_balance_btc, "balanceStr");
+         views.setViewVisibility(R.id.widget_wallet_balance_local, localBalanceStr != null ? View.VISIBLE : View.GONE);
+         views.setTextViewText(R.id.widget_wallet_balance_local, "localBalanceStr");
 
         if (appWidgetOptions != null) {
             final int minWidth = appWidgetOptions.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_WIDTH);
