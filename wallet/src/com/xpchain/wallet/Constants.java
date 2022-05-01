@@ -41,8 +41,7 @@ import java.util.concurrent.TimeUnit;
 public final class Constants {
 
     /** Network this wallet is on (e.g. testnet or mainnet). */
-    public static final NetworkParameters NETWORK_PARAMETERS =
-            !BuildConfig.FLAVOR.equals("prod") ?  MainNetParams.get() : TestNet3Params.get();
+    public static final NetworkParameters NETWORK_PARAMETERS = MainNetParams.get();
 
     /** Bitcoinj global context. */
     public static final Context CONTEXT = new Context(NETWORK_PARAMETERS);
