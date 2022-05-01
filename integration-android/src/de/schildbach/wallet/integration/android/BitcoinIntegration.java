@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package de.schildbach.wallet.integration.android;
+package com.xpchain.wallet.integration.android;
 
 import android.app.Activity;
 import android.content.Context;
@@ -257,7 +257,7 @@ public final class BitcoinIntegration {
                 .show();
 
         final Intent marketIntent = new Intent(Intent.ACTION_VIEW,
-                Uri.parse("market://details?id=de.schildbach.wallet"));
+                Uri.parse("market://details?id=com.xpchain.wallet"));
         final Intent binaryIntent = new Intent(Intent.ACTION_VIEW,
                 Uri.parse("https://github.com/bitcoin-wallet/bitcoin-wallet/releases"));
 

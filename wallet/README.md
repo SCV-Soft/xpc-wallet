@@ -1,21 +1,20 @@
-Technical details
-=================
+# Technical details
 
 ### FILES
 
 Your wallet contains your private keys and various transaction related metadata. It is stored in app-private
 storage:
 
-    Mainnet: /data/data/de.schildbach.wallet/files/wallet-protobuf
-    Testnet: /data/data/de.schildbach.wallet_test/files/wallet-protobuf-testnet
+    Mainnet: /data/data/com.xpchain.wallet/files/wallet-protobuf
+    Testnet: /data/data/com.xpchain.wallet_test/files/wallet-protobuf-testnet
 
 The wallet file format is not compatible to wallet.dat (Satoshi client). Rather, it uses a custom protobuf format
 which should be compatible between clients using bitcoinj.
 
 Certain actions cause automatic rolling backups of your wallet to app-private storage:
 
-    Mainnet: /data/data/de.schildbach.wallet/files/key-backup-protobuf
-    Testnet: /data/data/de.schildbach.wallet_test/files/key-backup-protobuf-testnet
+    Mainnet: /data/data/com.xpchain.wallet/files/key-backup-protobuf
+    Testnet: /data/data/com.xpchain.wallet_test/files/key-backup-protobuf-testnet
 
 Your wallet can be manually backed up to and restored from a share of the storage access framework (likely Google Drive):
 
@@ -28,15 +27,14 @@ itself to restore from the backup, see the separate [README.recover.md](README.r
 The current fee rate for each of the fee categories (economic, normal, priority) is cached in
 app-private storage:
 
-    Mainnet: /data/data/de.schildbach.wallet/files/fees.txt
-    Testnet: /data/data/de.schildbach.wallet_test/files/fees-testnet.txt
-
+    Mainnet: /data/data/com.xpchain.wallet/files/fees.txt
+    Testnet: /data/data/com.xpchain.wallet_test/files/fees-testnet.txt
 
 ### DEBUGGING
 
 Wallet file for Testnet can be pulled from an (even un-rooted) device using:
 
-    adb pull /data/data/de.schildbach.wallet_test/files/wallet-protobuf-testnet
+    adb pull /data/data/com.xpchain.wallet_test/files/wallet-protobuf-testnet
 
 Log messages can be viewed by:
 
@@ -44,7 +42,6 @@ Log messages can be viewed by:
 
 The app can send extensive debug information. Use **Options > Settings > Report Issue** and follow the dialog.
 In the generated e-mail, replace the support address with yours.
-
 
 ### BUILDING THE DEVELOPMENT VERSION
 
@@ -70,7 +67,6 @@ To install the app on your Android device, use:
 If installation fails, make sure "Developer options" and "USB debugging" are enabled on your Android device, and an ADB
 connection is established.
 
-
 ### BUILDING THE PRODUCTIVE VERSION
 
 At this point I'd like to remind that you continue on your own risk. According to the license,
@@ -92,11 +88,9 @@ You'll find the unsigned APK under this path:
 Apart from the missing signature and checksums in `META-INF/`, it should be identical to the APKs
 provided via the app stores.
 
-
 ### SETTING UP FOR DEVELOPMENT
 
 You can import the project into IntelliJ IDEA or Android Studio, as it uses Gradle for building.
-
 
 ### TRANSLATIONS
 
@@ -124,7 +118,6 @@ As soon as a translation is ready, it can be pulled:
 Note that after pulling, any bugs introduced by either translators or Transifex itself need to be
 corrected manually.
 
-
 ### NFC (Near field communication)
 
 Bitcoin Wallet supports reading Bitcoin requests via NFC, either from a passive NFC tag or from
@@ -149,11 +142,9 @@ Instructions for preparing an NFC tag with your address:
 - If you put your tag at a public place, don't forget to enable write protect. Otherwise, someone
   could overwrite the tag with his own Bitcoin address.
 
-
 ### BITCOINJ
 
 Bitcoin Wallet uses [bitcoinj](https://bitcoinj.org) for Bitcoin specific logic.
-
 
 ### EXCHANGE RATES
 
@@ -165,7 +156,6 @@ We chose this feed because it is not dependent on a single exchange. This featur
 with the compile-time flag
 
     Constants.ENABLE_EXCHANGE_RATES
-
 
 ### SWEEPING WALLETS
 

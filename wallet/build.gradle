@@ -45,7 +45,7 @@ android {
     defaultConfig {
         minSdkVersion 26
         targetSdkVersion 31
-        applicationId 'de.schildbach'
+        applicationId 'com.xpchain'
         multiDexEnabled true
 //        dexOptions {
 //            preDexLibraries false
