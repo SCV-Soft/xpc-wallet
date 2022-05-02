@@ -17,6 +17,7 @@
 
 package com.xpchain.wallet;
 
+import android.Manifest;
 import android.app.ActivityManager;
 import android.app.Application;
 import android.app.NotificationChannel;
@@ -68,6 +69,8 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+import static androidx.core.app.ActivityCompat.requestPermissions;
+
 /**
  * @author Andreas Schildbach
  */
@@ -117,11 +120,14 @@ public class WalletApplication extends Application {
 
         walletFile = getFileStreamPath(Constants.Files.WALLET_FILENAME_PROTOBUF);
 
-        final Configuration config = getConfiguration();
-        config.updateLastVersionCode(packageInfo.versionCode);
-        final BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
-        if (bluetoothAdapter != null)
-            config.updateLastBluetoothAddress(Bluetooth.getAddress(bluetoothAdapter));
+//        final Configuration config = getConfiguration();
+//        config.updateLastVersionCode(packageInfo.versionCode);
+//        final BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+//
+//
+//
+//        if (bluetoothAdapter != null)
+//            config.updateLastBluetoothAddress(Bluetooth.getAddress(bluetoothAdapter));
 
         cleanupFiles();
 

@@ -485,7 +485,7 @@ public class BlockchainService extends LifecycleService {
                 R.string.notification_connectivity_syncing_trusted_peer :
                 R.string.notification_connectivity_syncing_message));
         connectivityNotification.setContentIntent(PendingIntent.getActivity(BlockchainService.this, 0,
-                new Intent(BlockchainService.this, WalletActivity.class), 0));
+                new Intent(BlockchainService.this, WalletActivity.class), PendingIntent.FLAG_MUTABLE));
         connectivityNotification.setWhen(System.currentTimeMillis());
         connectivityNotification.setOngoing(true);
         connectivityNotification.setPriority(NotificationCompat.PRIORITY_LOW);

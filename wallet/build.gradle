@@ -33,6 +33,7 @@ dependencies {
     implementation 'com.github.tony19:logback-android:2.0.0'
     testImplementation 'junit:junit:4.13.2'
     implementation 'com.android.support:multidex:1.0.3'
+    implementation 'androidx.work:work-runtime-ktx:2.7.1'
 }
 
 ext {
@@ -40,6 +41,14 @@ ext {
 }
 
 android {
+    signingConfigs {
+        prod {
+            storeFile file('/Users/yuntaeil/Desktop/FIle/scvs0ft/xpc-wallet/key.jks')
+            storePassword 'scvsoft'
+            keyAlias 'key0'
+            keyPassword 'scvsoft'
+        }
+    }
     compileSdkVersion 31
     buildToolsVersion '30.0.3'
     defaultConfig {

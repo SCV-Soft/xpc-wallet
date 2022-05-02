@@ -136,8 +136,7 @@ public class BootstrapReceiver extends BroadcastReceiver {
         notification.setSmallIcon(R.drawable.stat_notify_received_24dp);
         notification.setContentTitle(title);
         notification.setContentText(text);
-        notification.setContentIntent(PendingIntent.getActivity(application, 0, new Intent(application, WalletActivity.class),
-                0));
+        notification.setContentIntent(PendingIntent.getActivity(application, 0, new Intent(application, WalletActivity.class), PendingIntent.FLAG_MUTABLE));
         notification.setAutoCancel(true);
 
         if (!canDonate) {
