@@ -17,6 +17,7 @@
 
 package com.xpchain.wallet.ui;
 
+import android.Manifest;
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
 import android.animation.AnimatorListenerAdapter;
@@ -30,6 +31,7 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.LayerDrawable;
 import android.nfc.NdefMessage;
 import android.nfc.NfcAdapter;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
@@ -118,6 +120,25 @@ public final class WalletActivity extends AbstractWalletActivity {
         OnFirstPreDraw.listen(contentView, viewModel);
         enterAnimation = buildEnterAnimation(contentView);
 
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            requestPermissions(
+                    new String[]{
+                            Manifest.permission.BLUETOOTH,
+                            Manifest.permission.BLUETOOTH_SCAN,
+                            Manifest.permission.BLUETOOTH_ADVERTISE,
+                            Manifest.permission.BLUETOOTH_CONNECT
+
+
+                    },
+                    1);
+        } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            requestPermissions(
+                    new String[]{
+                            Manifest.permission.BLUETOOTH
+
+                    },
+                    1);
+        }
         viewModel.walletEncrypted.observe(this, isEncrypted -> invalidateOptionsMenu());
         viewModel.walletLegacyFallback.observe(this, isLegacyFallback -> invalidateOptionsMenu());
         viewModel.showHelpDialog.observe(this, new Event.Observer<Integer>() {
