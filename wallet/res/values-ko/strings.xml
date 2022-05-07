@@ -169,7 +169,7 @@
   <string name="transaction_row_message_received_rbf">송금자가 안전하지 않은 거래 유형을 사용함으로써, 결제 완료가 지연되어 지금 도착했습니다.</string>
   <string name="network_monitor_activity_title">블록체인 모니터링</string>
   <string name="network_monitor_peer_list_title">피어(Peer) 현황</string>
-  <string name="network_monitor_block_list_title">블럭</string>
+  <string name="network_monitor_block_list_title">블록</string>
   <string name="block_row_mining_difficulty_adjustment">채굴 난이도 조정</string>
   <string name="block_row_mining_reward_adjustment">채굴을 통한 획득 XPChain 절반으로 감소</string>
   <string name="block_row_now">조금 전</string>
@@ -238,8 +238,8 @@
   <string name="preferences_trusted_peer_resolve_unknown_host">알려지지 않은 호스트 네임!</string>
   <string name="preferences_trusted_peer_only_title">일반적인 피어 탐색을 수행하지 않고 지나칩니다.</string>
   <string name="preferences_trusted_peer_only_summary">신뢰할 수 있는 피어(Peer)를 포함한 어떤 피어라도 새롭게 연결하는 것을 차단합니다.</string>
-  <string name="preferences_block_explorer_title">블럭 탐색기</string>
-  <string name="preferences_block_explorer_summary">트랜잭션, 주소, 블럭을 검색하기 위한 외부의 블럭 탐색기 사용</string>
+  <string name="preferences_block_explorer_title">블록 탐색기</string>
+  <string name="preferences_block_explorer_summary">트랜잭션, 주소, 블록을 검색하기 위한 외부의 블록 탐색기 사용</string>
   <string name="preferences_data_usage_title">데이터 사용량</string>
   <string name="preferences_data_usage_summary">모바일 네트워크에서 사용할 데이터 사용량 제한 설정을 보여줍니다.</string>
   <string name="preferences_remind_balance_title">잔액 알림</string>
@@ -247,7 +247,7 @@
   <string name="preferences_show_disclaimer_title">면책 조항 표시</string>
   <string name="preferences_report_issue_title">오류 보고</string>
   <string name="preferences_initiate_reset_title">블록체인 재설정</string>
-  <string name="preferences_initiate_reset_summary">블럭 체인과 거래 내역, XPChain 잔액을 다시 읽어들입니다. 이 리셋 과정에 상당히 많은 시간이 소요되므로 이 기능이 무엇인지 정확히 이해하고 있는 경우에만 적용하십시오.</string>
+  <string name="preferences_initiate_reset_summary">블록 체인과 거래 내역, XPChain 잔액을 다시 읽어들입니다. 이 리셋 과정에 상당히 많은 시간이 소요되므로 이 기능이 무엇인지 정확히 이해하고 있는 경우에만 적용하십시오.</string>
   <string name="preferences_initiate_reset_dialog_message">블록체인을 초기화한 후 다시 불러오겠습니까?\n\n이 작업을 진행하면 지갑의 잔액과 거래 내역이 일시적으로 표시되지 않습니다. 블록체인 동기화 완료 시, 다시 정상적으로 표시됩니다.</string>
   <string name="preferences_initiate_reset_dialog_positive">재동기화</string>
   <string name="preferences_extended_public_key_title">extended public key 보이기</string>
