@@ -3,7 +3,7 @@
     <string name="symbol_to">→</string>
     <string name="symbol_from">←</string>
     <string name="symbol_internal">⇄</string>
-    <string name="app_name">XPC Wallet</string>
+    <string name="app_name">XPChain Wallet</string>
     <string name="app_name_short">XPC</string>
 
     <string-array name="preferences_precision_values">
