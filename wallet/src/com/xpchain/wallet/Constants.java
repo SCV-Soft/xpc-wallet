@@ -61,7 +61,7 @@ public final class Constants {
     /** Enable switch for synching of the block chain */
     public static final boolean ENABLE_BLOCKCHAIN_SYNC = true;
     /** Enable switch for fetching and showing of exchange rates */
-    public static final boolean ENABLE_EXCHANGE_RATES = true;
+    public static final boolean ENABLE_EXCHANGE_RATES = false;
     /** Enable switch for sweeping of paper wallets */
     public static final boolean ENABLE_SWEEP_WALLET = true;
     /** Enable switch for browsing to block explorers */
