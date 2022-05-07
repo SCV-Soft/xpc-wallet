@@ -298,7 +298,7 @@
   <string name="about_license_title">Licens</string>
   <string name="about_source_title">Kildekode</string>
   <string name="about_category_credits">Denne app bruger…</string>
-  <string name="about_credits_bitcoinj_title">XPChainj %s, en implementation af XPChain-protokollen</string>
+  <string name="about_credits_bitcoinj_title">Bitcoinj %s, en implementation af XPChain-protokollen</string>
   <string name="about_credits_zxing_title">ZXing, et bibliotek til processering af QR-koder</string>
   <string name="about_credits_bouncycastle_title">Bouncy Castle, et kryptografi-bibliotek</string>
   <string name="about_credits_okhttp_title">OkHttp, et HTTP-klientbibliotek</string>

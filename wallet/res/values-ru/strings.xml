@@ -287,7 +287,7 @@
   <string name="about_license_title">Лицензия</string>
   <string name="about_source_title">Исходный код</string>
   <string name="about_category_credits">Это приложение использует…</string>
-  <string name="about_credits_bitcoinj_title">XPChainj %s, реализация протокола XPChain</string>
+  <string name="about_credits_bitcoinj_title">Bitcoinj %s, реализация протокола XPChain</string>
   <string name="about_credits_zxing_title">ZXing, библиотека обработки QR-кодов</string>
   <string name="about_credits_bouncycastle_title">Bouncy Castle, криптографическая библиотека</string>
   <string name="about_credits_okhttp_title">OkHttp, библиотека для работы клиента HTTP</string>

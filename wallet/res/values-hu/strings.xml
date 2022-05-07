@@ -43,7 +43,7 @@
   <string name="wallet_options_donate">Borravaló / támogatás</string>
   <string name="wallet_donate_address_label">Támogatás a XPChain Wallet-nek</string>
   <string name="alert_dialogs_fragment_insecure_bluetooth_title">Biztonsági figyelmeztetés</string>
-  <string name="alert_dialogs_fragment_insecure_bluetooth_message">Eszközöd Bluetooth egysége sérülékenységet tartalmaz. Az ezen az eszközön tárolt XPChainjaid veszélyben vannak, függetlenül a tárolásukra használt apptól!\n\nAzt javasoljuk, azonnal kapcsold ki a Bluetooth-t, és szerezz be az eszközöd gyártójától egy olyan Android rendszerfrissítést, amelynek a biztonsági javítás szintje legalább \'%s\'.</string>
+  <string name="alert_dialogs_fragment_insecure_bluetooth_message">Eszközöd Bluetooth egysége sérülékenységet tartalmaz. Az ezen az eszközön tárolt Bitcoinjaid veszélyben vannak, függetlenül a tárolásukra használt apptól!\n\nAzt javasoljuk, azonnal kapcsold ki a Bluetooth-t, és szerezz be az eszközöd gyártójától egy olyan Android rendszerfrissítést, amelynek a biztonsági javítás szintje legalább \'%s\'.</string>
   <string name="wallet_low_storage_dialog_title">Kevés a hely a készülék belső tárolóján!</string>
   <string name="wallet_low_storage_dialog_msg">A XPChain Wallet belső tárhelyet használ a tranzakciók és blokkok megjegyzéséhez. Ha kifogy a helyből, leáll a működése és a XPChain-jaid veszélyben lesznek!\n\nMeg akarod nyitni az Alkalmazáskezelőt, hogy eltávolítsd a szükségtelen alkalmazásokat?</string>
   <string name="wallet_low_storage_dialog_button_apps">Alkalmazások kezelése</string>
@@ -279,7 +279,7 @@
   <string name="about_license_title">Licensz</string>
   <string name="about_source_title">Forráskód</string>
   <string name="about_category_credits">Ez az app a következőket használja…</string>
-  <string name="about_credits_bitcoinj_title">Az applikáció XPChainj %s-t használ</string>
+  <string name="about_credits_bitcoinj_title">Az applikáció Bitcoinj %s-t használ</string>
   <string name="about_credits_zxing_title">ZXing, egy QR-kód feldolgozó könyvtár</string>
   <string name="about_credits_bouncycastle_title">Bouncy Castle, egy kriptografikus könyvtár</string>
   <string name="about_credits_okhttp_title">OkHttp, egy HTTP kliens könyvtár</string>
