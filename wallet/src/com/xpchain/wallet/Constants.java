@@ -135,7 +135,7 @@ public final class Constants {
             ? "bc1qgm3m0qg0sxggd0klauec5wradqyd66ydrrwy3f" : null;
 
     /** Recipient e-mail address for reports. */
-    public static final String REPORT_EMAIL = "bitcoin.wallet.developers@gmail.com";
+    public static final String REPORT_EMAIL = "arnoldcho@xpchain.co.kr";
 
     /** Subject line for manually reported issues. */
     public static final String REPORT_SUBJECT_ISSUE = "Reported issue";
