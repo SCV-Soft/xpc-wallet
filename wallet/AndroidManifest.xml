@@ -119,14 +119,14 @@
             android:windowSoftInputMode="adjustResize">
             <intent-filter android:label="@string/send_coins_activity_title">
                 <action android:name="android.intent.action.VIEW" />
-                <data android:scheme="bitcoin" />
-                <data android:scheme="BITCOIN" />
+                <data android:scheme="xpchain" />
+                <data android:scheme="XPCHAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
             </intent-filter>
             <intent-filter android:label="@string/send_coins_activity_title">
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
-                <data android:scheme="bitcoin" />
+                <data android:scheme="xpchain" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter android:label="@string/send_coins_activity_title">
