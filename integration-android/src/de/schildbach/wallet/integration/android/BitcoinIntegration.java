@@ -218,8 +218,7 @@ public final class BitcoinIntegration {
     private static final int SATOSHIS_PER_COIN = 100000000;
 
     private static Intent makeBitcoinUriIntent(final String address, final Long amount) {
-        // TODO : fix it
-        final StringBuilder uri = new StringBuilder("bitcoin:");
+        final StringBuilder uri = new StringBuilder("xpchain:");
         if (address != null)
             uri.append(address);
         if (amount != null)
