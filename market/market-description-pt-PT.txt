@@ -1,4 +1,4 @@
-<b>Tenha as suas Bitcoins sempre consigo, no seu bolso! Você paga digitalizando rapidamente um código QR. Como um comerciante, recebe pagamentos de uma forma segura e instantânea. XPChain Wallet é a primeira aplicação XPChain móvel, e possivelmente também a mais segura!
+<b>Tenha as suas XPChains sempre consigo, no seu bolso! Você paga digitalizando rapidamente um código QR. Como um comerciante, recebe pagamentos de uma forma segura e instantânea. XPChain Wallet é a primeira aplicação XPChain móvel, e possivelmente também a mais segura!
 
 
 <b>FUNCIONALIDADES</b>
@@ -6,11 +6,11 @@
 • Não é necessário registo, serviço da Web ou nuvem! Esta carteira é descentralizada e de par-a-par.
 • Exibir o valor XPChain em XPC, mXPC e µXPC.
 • Conversão de e para as moedas nacionais.
-• Enviar e receber Bitcoins via NFC, códigos QR ou URLs Bitcoin.
+• Enviar e receber XPChains via NFC, códigos QR ou URLs XPChain.
 • Quando estiver off-line, ainda pode pagar via Bluetooth.
 • Notificação do sistema para as moedas recebidas.
 • Limpeza de carteiras de papel (por exemplo, aquelas utilizadas para armazenamento reservado).
-• Widget da aplicação para o saldo de Bitcoins.
+• Widget da aplicação para o saldo de XPChains.
 
 
 <b>CONTRIBUIR</b>

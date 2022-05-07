@@ -34,7 +34,7 @@ public final class BitcoinIntegration {
     private static final String MIMETYPE_PAYMENTREQUEST = "application/bitcoin-paymentrequest"; // BIP 71
 
     /**
-     * Request any amount of Bitcoins (probably a donation) from user, without feedback from the app.
+     * Request any amount of XPChains (probably a donation) from user, without feedback from the app.
      * 
      * @param context
      *            Android context
@@ -48,7 +48,7 @@ public final class BitcoinIntegration {
     }
 
     /**
-     * Request specific amount of Bitcoins from user, without feedback from the app.
+     * Request specific amount of XPChains from user, without feedback from the app.
      * 
      * @param context
      *            Android context
@@ -78,7 +78,7 @@ public final class BitcoinIntegration {
     }
 
     /**
-     * Request any amount of Bitcoins (probably a donation) from user, with feedback from the app. Result
+     * Request any amount of XPChains (probably a donation) from user, with feedback from the app. Result
      * intent can be received by overriding {@code Activity#onActivityResult(int, int, Intent)}. Result indicates
      * either {@link Activity#RESULT_OK} or {@link Activity#RESULT_CANCELED}. In the success case, use
      * {@link #transactionHashFromResult(Intent)} to read the transaction hash from the intent.

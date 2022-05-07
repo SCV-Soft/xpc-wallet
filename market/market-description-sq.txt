@@ -1,12 +1,12 @@
-<>Mbani Bitcoin-at e juaj gjithmonë me ju, në xhepin tuaj!</b> Paguani shpejt duke skanuar një QR kod. Si tregtar, pranoni pagesat lehtë dhe menjëherë. XPChain Wallet është XPChain aplikacioni i parë mobil, dhe gjithashtu më i sigurti!
+<>Mbani XPChain-at e juaj gjithmonë me ju, në xhepin tuaj!</b> Paguani shpejt duke skanuar një QR kod. Si tregtar, pranoni pagesat lehtë dhe menjëherë. XPChain Wallet është XPChain aplikacioni i parë mobil, dhe gjithashtu më i sigurti!
 
 
 <b>VEÇORIT</b>
 
 • Nuk kërkohet regjistrim, ueb shërbim apo cloud! Kjo kulet është e de-centralizuar dhe 'peer to peer'.
-• Shfaq shumën e Bitcoins në XPC, mXPC dhe µXPC.
+• Shfaq shumën e XPChains në XPC, mXPC dhe µXPC.
 • Konvertimi nga monedhat nacionale.
-• Dërgimi dhe pranimi i Bitcoin-ave me anë të NFC, QR kodeve ose Bircoin URL-ve.
+• Dërgimi dhe pranimi i XPChain-ave me anë të NFC, QR kodeve ose Bircoin URL-ve.
 • Kur jeni offline, ju prap mund të paguani përmes Bluetooth.
 • Sistemi i lajmërimit për pranimin e monedhave.
 • Shpenzimi i kuletave në letër (p.sh. ato të cilat përdoren për 'cold storage').

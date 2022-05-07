@@ -4,10 +4,10 @@ FITUR:
 
 • Tidak diperlukan server awan atau layanan web! Dompet ini benar-benar peer ke peer.
 • Tampilkan saldo dompet dalam XPChain dan mata uang lainnya.
-• Mengirim dan menerima XPChain via NFC, kode-QR atau Tautan Bitcoin.
+• Mengirim dan menerima XPChain via NFC, kode-QR atau Tautan XPChain.
 • Masukkan transaksi saat offline, akan dilaksanakan ketika online.
 • Notifikasi sistem untuk konektivitas XPChain dan menerima koin.
-• Widget Apl untuk saldo Bitcoin.
+• Widget Apl untuk saldo XPChain.
 
 Lisensi: GPLv3
 http://www.gnu.org/licenses/gpl-3.0.en.html

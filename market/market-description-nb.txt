@@ -1,16 +1,16 @@
-<b>Ha alltid dine bitcoins med deg, i lommen din!</b> Du betaler ved å raskt skanne en QR-kode. Som en kjøpmann, får du betaling pålitelig og kjapt. XPChain Wallet er den første XPChain mobilappen, og kanskje også den sikreste!
+<b>Ha alltid dine XPChains med deg, i lommen din!</b> Du betaler ved å raskt skanne en QR-kode. Som en kjøpmann, får du betaling pålitelig og kjapt. XPChain Wallet er den første XPChain mobilappen, og kanskje også den sikreste!
 
 
 <b>FUNKSJONER</b>
 
 • Ingen registrering, webtjeneste eller sky trengs! Denne lommeboken er desentralisert og peer-to-peer.
-• Visning av bitcoinbeløpet i XPC, mXPC og μXPC.
+• Visning av XPChainbeløpet i XPC, mXPC og μXPC.
 • Konvertering til og fra nasjonale valutaer.
-• Sende og motta XPChain via NFC, QR-koder eller Bitcoin-URLer.
+• Sende og motta XPChain via NFC, QR-koder eller XPChain-URLer.
 • Når du er frakoblet, kan du fortsatt betale via blåtann.
 • Systemvarsling for mottatte mynter.
 • Sveiping av papirlommebøker (f.eks. de som brukes til kaldlagring).
-• Miniprogram for saldo over bitcoins.
+• Miniprogram for saldo over XPChains.
 
 
 <b>BIDRA</b>
