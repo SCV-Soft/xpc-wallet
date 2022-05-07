@@ -218,6 +218,7 @@ public final class BitcoinIntegration {
     private static final int SATOSHIS_PER_COIN = 100000000;
 
     private static Intent makeBitcoinUriIntent(final String address, final Long amount) {
+        // TODO : fix it
         final StringBuilder uri = new StringBuilder("bitcoin:");
         if (address != null)
             uri.append(address);
@@ -253,13 +254,16 @@ public final class BitcoinIntegration {
     }
 
     private static void redirectToDownload(final Context context) {
+        // TODO : fix it
         Toast.makeText(context, "No Bitcoin application found.\nPlease install Bitcoin Wallet.", Toast.LENGTH_LONG)
                 .show();
 
         final Intent marketIntent = new Intent(Intent.ACTION_VIEW,
                 Uri.parse("market://details?id=com.xpchain.wallet"));
         final Intent binaryIntent = new Intent(Intent.ACTION_VIEW,
+                // TODO : fix it
                 Uri.parse("https://github.com/bitcoin-wallet/bitcoin-wallet/releases"));
+
 
         final PackageManager pm = context.getPackageManager();
         if (pm.resolveActivity(marketIntent, 0) != null)
