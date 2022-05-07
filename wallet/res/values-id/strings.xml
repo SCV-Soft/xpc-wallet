@@ -101,7 +101,7 @@
 	<string name="import_keys_intent_filter_action">Pulihkan kunci pribadi</string>
 	<string name="scan_camera_problem_dialog_title">Maaf</string>
 	<string name="scan_camera_problem_dialog_message">Kamera mengalami masalah. Anda mungkin harus menyala-ulangkan ponsel.</string>
-	<string name="input_parser_invalid_XPChain_uri">Tautan XPChain Salah:\n%s</string>
+	<string name="input_parser_invalid_bitcoin_uri">Tautan XPChain Salah:\n%s</string>
 	<string name="input_parser_invalid_address">Alamat XPChain salah!\n(Keliru dgn Mainet/Testnet?)</string>
 	<string name="preferences_activity_title">Pengaturan</string>
 	<string name="preferences_category_diagnostics">Diagnosa</string>
@@ -130,7 +130,7 @@
 	<string name="about_title">Mengenai</string>
 	<string name="about_license_title">Lisensi</string>
 	<string name="about_category_credits">Apl ini menggunakan…</string>
-	<string name="about_credits_XPChainj_title">XPChainj %s</string>
+	<string name="about_credits_bitcoinj_title">XPChainj %s</string>
 	<string name="about_credits_zxing_title">ZXing</string>
 	<string name="about_market_app_title">Halaman Apl %s</string>
 	<string name="notification_coins_received_msg">Diterima %s</string>

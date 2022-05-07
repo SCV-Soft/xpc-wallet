@@ -228,7 +228,7 @@
   <string name="scan_camera_permission_dialog_message">为了扫描QR码，您需要授予使用相机的权限。</string>
   <string name="input_parser_io_error">无法读取数据：\n%s</string>
   <string name="input_parser_cannot_classify">如法识别输入：\n%s</string>
-  <string name="input_parser_invalid_XPChain_uri">无效的比特币URL：\n%s</string>
+  <string name="input_parser_invalid_bitcoin_uri">无效的比特币URL：\n%s</string>
   <string name="input_parser_invalid_address">出现了无效的比特币地址！\n（混淆了mainnet/testnet？）</string>
   <string name="input_parser_unverifyable_paymentrequest">无法核实付款请求：\n%s</string>
   <string name="input_parser_invalid_paymentrequest">无效的付款请求：\n%s</string>
@@ -305,7 +305,7 @@
   <string name="about_license_title">许可协议</string>
   <string name="about_source_title">源代码</string>
   <string name="about_category_credits">此应用正在使用...</string>
-  <string name="about_credits_XPChainj_title">XPChainj %s, 一个比特币协议库</string>
+  <string name="about_credits_bitcoinj_title">XPChainj %s, 一个比特币协议库</string>
   <string name="about_credits_zxing_title">ZXing，一个QR码处理库</string>
   <string name="about_credits_bouncycastle_title">Bouncy Castle，一个密码学函数库</string>
   <string name="about_credits_okhttp_title">OkHttp，一个HTTP客户端函数库</string>

@@ -214,7 +214,7 @@
   <string name="scan_camera_permission_dialog_message">Per eseguire la scansione dei codici QR, devi concedere il permesso per usare la fotocamera.</string>
   <string name="input_parser_io_error">Impossibile leggere i dati:\n%s</string>
   <string name="input_parser_cannot_classify">Impossibile classificare l\'input:\n%s</string>
-  <string name="input_parser_invalid_XPChain_uri">URI XPChain errato:\n%s</string>
+  <string name="input_parser_invalid_bitcoin_uri">URI XPChain errato:\n%s</string>
   <string name="input_parser_invalid_address">Ricevuto indirizzo XPChain non valido!\n(Hai mescolato la mainnet con la testnet?)</string>
   <string name="input_parser_unverifyable_paymentrequest">Impossibile verificare la richiesta di pagamento:\n%s</string>
   <string name="input_parser_invalid_paymentrequest">Richiesta di pagamento invalida:\n%s</string>
@@ -274,7 +274,7 @@
   <string name="about_license_title">Licenza</string>
   <string name="about_source_title">Codice Sorgente</string>
   <string name="about_category_credits">Questa applicazione fa uso di…</string>
-  <string name="about_credits_XPChainj_title">XPChainj %s, un\'implementazione del protocollo XPChain</string>
+  <string name="about_credits_bitcoinj_title">XPChainj %s, un\'implementazione del protocollo XPChain</string>
   <string name="about_credits_zxing_title">ZXing, una libreria di elaborazione di QR-code</string>
   <string name="about_market_app_title">Pagina su %s</string>
   <string name="about_market_app_summary">Recensire o votare l\'app</string>

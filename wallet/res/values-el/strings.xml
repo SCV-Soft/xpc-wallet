@@ -144,7 +144,7 @@
   <string name="scan_camera_problem_dialog_title">Λυπούμαστε</string>
   <string name="scan_camera_problem_dialog_message">Η φωτογραφική αντιμετωπίζει κάποιο πρόβλημα. Πιθανόν να χρειάζεται επανεκκίνηση.</string>
   <string name="input_parser_io_error">Δεν είναι δυνατή η ανάγνωση δεδομένων:\n%s</string>
-  <string name="input_parser_invalid_XPChain_uri">Μη έγκυρο XPChain URI:\n%s</string>
+  <string name="input_parser_invalid_bitcoin_uri">Μη έγκυρο XPChain URI:\n%s</string>
   <string name="input_parser_unverifyable_paymentrequest">Δεν είναι δυνατή η επαλήθευση της αίτησης πληρωμής:\n%s</string>
   <string name="input_parser_invalid_paymentrequest">Μη έγκυρο αίτημα πληρωμής:\n%s</string>
   <string name="input_parser_invalid_transaction">Μη έγκυρη συναλλαγή:\n%s</string>
@@ -181,7 +181,7 @@
   <string name="about_license_title">Άδεια</string>
   <string name="about_source_title">Πηγαίος κώδικας</string>
   <string name="about_category_credits">Αυτή η εφαρμογή χρησιμοποιεί…</string>
-  <string name="about_credits_XPChainj_title">XPChainj %s</string>
+  <string name="about_credits_bitcoinj_title">XPChainj %s</string>
   <string name="about_credits_zxing_title">ZXing</string>
   <string name="about_market_app_title">Σελίδα %s</string>
   <string name="about_market_app_summary">Κάνετε κριτική ή βαθμολογήστε την εφαρμογή</string>

@@ -226,7 +226,7 @@
   <string name="scan_camera_permission_dialog_message">Para poder escanear códigos QR, debe conceder permiso para usar la cámara.</string>
   <string name="input_parser_io_error">No se pueden leer los datos:\n%s</string>
   <string name="input_parser_cannot_classify">No se reconoce la entrada:\n%s</string>
-  <string name="input_parser_invalid_XPChain_uri">URI XPChain inválida:\n%s</string>
+  <string name="input_parser_invalid_bitcoin_uri">URI XPChain inválida:\n%s</string>
   <string name="input_parser_invalid_address">¡Dirección XPChain inválida!\n(¿Confusión entre mainnet/testnet?)</string>
   <string name="input_parser_unverifyable_paymentrequest">No se puede verificar la solicitud de pago:\n%s</string>
   <string name="input_parser_invalid_paymentrequest">Solicitud de pago inválida:\n%s</string>
@@ -296,7 +296,7 @@
   <string name="about_license_title">Licencia</string>
   <string name="about_source_title">Código fuente</string>
   <string name="about_category_credits">Esta aplicación utiliza…</string>
-  <string name="about_credits_XPChainj_title">XPChainj %s</string>
+  <string name="about_credits_bitcoinj_title">XPChainj %s</string>
   <string name="about_credits_zxing_title">ZXing</string>
   <string name="about_credits_bouncycastle_title">Bouncy Castle, una biblioteca de criptografía</string>
   <string name="about_credits_okhttp_title">OkHttp, una biblioteca de cliente HTTP</string>

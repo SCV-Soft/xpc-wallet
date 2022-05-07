@@ -225,7 +225,7 @@
   <string name="scan_camera_permission_dialog_message">Jotta voit skannata QR-koodeja, sinun on annettava lupa kameran käyttöön.</string>
   <string name="input_parser_io_error">Dataa ei voida lukea:\n%s</string>
   <string name="input_parser_cannot_classify">Syötettä ei tunnisteta:\n%s</string>
-  <string name="input_parser_invalid_XPChain_uri">Kelvoton XPChain-URI:\n%s</string>
+  <string name="input_parser_invalid_bitcoin_uri">Kelvoton XPChain-URI:\n%s</string>
   <string name="input_parser_invalid_address">Saatiin kelvoton XPChain-osoite!\n(Sekoitatko mainnet/testnet?)</string>
   <string name="input_parser_unverifyable_paymentrequest">Maksupyyntöä ei voida vahvistaa:\n%s</string>
   <string name="input_parser_invalid_paymentrequest">Kelvoton maksupyyntö:\n%s</string>
@@ -288,7 +288,7 @@
   <string name="about_license_title">Lisenssi</string>
   <string name="about_source_title">Lähdekoodi</string>
   <string name="about_category_credits">Tämä sovellus käyttää…</string>
-  <string name="about_credits_XPChainj_title">XPChainj %s, implementaatio XPChain-protokollasta</string>
+  <string name="about_credits_bitcoinj_title">XPChainj %s, implementaatio XPChain-protokollasta</string>
   <string name="about_credits_zxing_title">ZXing, QR-koodien prosessointikirjasto</string>
   <string name="about_credits_bouncycastle_title">Bouncy Castle, kryptografiakirjasto</string>
   <string name="about_credits_okhttp_title">OkHttp, HTTP-asiakaskirjasto</string>

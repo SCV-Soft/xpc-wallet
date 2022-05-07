@@ -139,7 +139,7 @@
   <string name="scan_camera_problem_dialog_message">Проблема з камерою. Можливо, вам потрібо перезавантажити пристрій.</string>
   <string name="input_parser_io_error">Не вдається прочитати дані:\n%s</string>
   <string name="input_parser_cannot_classify">Не вдається розпізнати вхід:\n%s</string>
-  <string name="input_parser_invalid_XPChain_uri">Некоректна XPChain-адреса:\n%s</string>
+  <string name="input_parser_invalid_bitcoin_uri">Некоректна XPChain-адреса:\n%s</string>
   <string name="input_parser_invalid_address">Отримано некоректну XPChain адесу!\n(Переплутані mainnet/testnet?)</string>
   <string name="input_parser_unverifyable_paymentrequest">Не вдається перевірити запит на оплату:\n%s</string>
   <string name="input_parser_invalid_paymentrequest">Недопустимий запит на оплату:\n%s</string>
@@ -176,7 +176,7 @@
   <string name="about_license_title">Ліцензія</string>
   <string name="about_source_title">Початковий код</string>
   <string name="about_category_credits">Цей додаток використовує…</string>
-  <string name="about_credits_XPChainj_title">XPChainj %s</string>
+  <string name="about_credits_bitcoinj_title">XPChainj %s</string>
   <string name="about_credits_zxing_title">ZXing</string>
   <string name="about_market_app_title">Сторінка %s</string>
   <string name="about_market_app_summary">Напишіть відгук або оцініть додаток</string>

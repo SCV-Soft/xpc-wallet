@@ -211,7 +211,7 @@
   <string name="scan_camera_permission_dialog_message">為了要可以掃描代碼，你必須要授權給程式使用相機。</string>
   <string name="input_parser_io_error">無法讀取資料:\n%s</string>
   <string name="input_parser_cannot_classify">輸入沒辦法辨識:\n%s</string>
-  <string name="input_parser_invalid_XPChain_uri">無效的 XPChain URI:\n%s</string>
+  <string name="input_parser_invalid_bitcoin_uri">無效的 XPChain URI:\n%s</string>
   <string name="input_parser_invalid_address">發現無效的 XPChain 位址！\n(mainnet 和 testnet 搞混了嗎？)</string>
   <string name="input_parser_unverifyable_paymentrequest">沒辦法驗證請款資料:\n%s</string>
   <string name="input_parser_invalid_paymentrequest">無效的請款資料:\n%s</string>
@@ -271,7 +271,7 @@
   <string name="about_license_title">授權</string>
   <string name="about_source_title">程式碼</string>
   <string name="about_category_credits">這個應用程式使用了...</string>
-  <string name="about_credits_XPChainj_title">XPChainj %s, 一個 XPChain 通訊協定的實作</string>
+  <string name="about_credits_bitcoinj_title">XPChainj %s, 一個 XPChain 通訊協定的實作</string>
   <string name="about_credits_zxing_title">ZXing, 一個處理 QR 代碼的程式庫</string>
   <string name="about_market_app_title">%s 商店頁面</string>
   <string name="about_market_app_summary">給這個應用程式評論或評分</string>

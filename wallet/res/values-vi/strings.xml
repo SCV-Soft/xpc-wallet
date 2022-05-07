@@ -96,7 +96,7 @@
 	<string name="import_keys_intent_filter_action">Nhập dữ liệu từ khóa XPChain</string>
 	<string name="scan_camera_problem_dialog_title">Rất tiếc</string>
 	<string name="scan_camera_problem_dialog_message">Phần camera gặp vấn đề. Bạn nên khởi động lại thiết bị này.</string>
-	<string name="input_parser_invalid_XPChain_uri">XPChain URI không hợp lệ:\n%s</string>
+	<string name="input_parser_invalid_bitcoin_uri">XPChain URI không hợp lệ:\n%s</string>
 	<string name="input_parser_invalid_address">Đã nhận được địa chỉ XPChain không hợp lệ!\n(Nhầm lẫn giữa Mainnet/Testnet?)</string>
 	<string name="preferences_activity_title">Thiết lập</string>
 	<string name="preferences_category_diagnostics">Chẩn đoán</string>
@@ -122,7 +122,7 @@
 	<string name="report_issue_dialog_mail_intent_chooser">Gửi báo cáo sử dụng…</string>
 	<string name="about_title">Thông tin</string>
 	<string name="about_license_title">Giấy phép</string>
-	<string name="about_credits_XPChainj_title">Ứng dụng này đang sử dụng XPChainj %s</string>
+	<string name="about_credits_bitcoinj_title">Ứng dụng này đang sử dụng XPChainj %s</string>
 	<string name="about_credits_zxing_title">Ứng dụng này sử dụng ZXing</string>
 	<string name="about_market_app_title">Trang web của ứng dụng trên %s</string>
 	<string name="notification_coins_received_msg">đã nhận %s</string>

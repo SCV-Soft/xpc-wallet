@@ -119,7 +119,7 @@
 	<string name="scan_camera_problem_dialog_message">Problém s fotoaparátom. Pravdepodobne je potrebný reštart zariadenia.</string>
 	<string name="input_parser_io_error">Nepodarilo sa prečítať:\n%s</string>
 	<string name="input_parser_cannot_classify">Nepodarilo sa zaradiť vstup:\n%s</string>
-	<string name="input_parser_invalid_XPChain_uri">Neplatná XPChain URI:\n%s</string>
+	<string name="input_parser_invalid_bitcoin_uri">Neplatná XPChain URI:\n%s</string>
 	<string name="input_parser_invalid_address">Neplatná XPChain adresa!\n(Zamenené Mainnet/Testnet?)</string>
 	<string name="input_parser_invalid_paymentrequest">Neplatná žiadosť o platbu:\n%s</string>
 	<string name="input_parser_invalid_transaction">Neplatná transakcia:\n%s</string>
@@ -152,7 +152,7 @@
 	<string name="about_title">O aplikácií</string>
 	<string name="about_license_title">Licencia</string>
 	<string name="about_category_credits">Táto aplikácia používa…</string>
-	<string name="about_credits_XPChainj_title">XPChainj %s</string>
+	<string name="about_credits_bitcoinj_title">XPChainj %s</string>
 	<string name="about_credits_zxing_title">ZXing</string>
 	<string name="about_market_app_title">%s stránka</string>
 	<string name="about_market_app_summary">Ohodnotiť aplikáciu</string>

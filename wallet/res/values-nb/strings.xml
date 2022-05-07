@@ -214,7 +214,7 @@
   <string name="scan_camera_permission_dialog_message">For å skanne QR koder, må du gi tillatelse til å bruke kamera.</string>
   <string name="input_parser_io_error">Kan ikke lese data:\n%s</string>
   <string name="input_parser_cannot_classify">Kan ikke gjenkjenne input:\n%s</string>
-  <string name="input_parser_invalid_XPChain_uri">Ugyldig XPChain-URI:\n%s</string>
+  <string name="input_parser_invalid_bitcoin_uri">Ugyldig XPChain-URI:\n%s</string>
   <string name="input_parser_invalid_address">Fikk ugyldig XPChain-adresse!\n(Blanding av Mainnet/Testnet?)</string>
   <string name="input_parser_unverifyable_paymentrequest">Kan ikke verifisere betalingsforespørsel:\n%s</string>
   <string name="input_parser_invalid_paymentrequest">Ugyldig betalingsforespørsel:\n%s</string>
@@ -274,7 +274,7 @@
   <string name="about_license_title">Lisens</string>
   <string name="about_source_title">Kildekode</string>
   <string name="about_category_credits">Appen bruker…</string>
-  <string name="about_credits_XPChainj_title">XPChainj %s</string>
+  <string name="about_credits_bitcoinj_title">XPChainj %s</string>
   <string name="about_credits_zxing_title">ZXing</string>
   <string name="about_market_app_title">%s-siden</string>
   <string name="about_market_app_summary">Anmeld eller bedøm appen</string>

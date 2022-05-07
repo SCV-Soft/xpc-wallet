@@ -213,7 +213,7 @@
   <string name="scan_camera_permission_dialog_message">QR 코드를 스캔하기 위해서는 카메라 접근 권한을 허용해야 합니다.</string>
   <string name="input_parser_io_error">데이터를 읽을 수 없습니다. :\n%s</string>
   <string name="input_parser_cannot_classify">입력값 파싱 중 에러가 발생했습니다. : %s</string>
-  <string name="input_parser_invalid_XPChain_uri">유효하지 않은 XPChain URI입니다. :\n%s</string>
+  <string name="input_parser_invalid_bitcoin_uri">유효하지 않은 XPChain URI입니다. :\n%s</string>
   <string name="input_parser_invalid_address">유효하지 않은 XPChain 주소입니다!\n(XPChain 네트워크와 테스트넷 주소의 뒤섞임이 원인일 수 있습니다)</string>
   <string name="input_parser_unverifyable_paymentrequest">결제 요청을 검증할 수 없습니다. :\n%s</string>
   <string name="input_parser_invalid_paymentrequest">유효하지 않은 결제 요청입니다. :\n%s</string>
@@ -272,7 +272,7 @@
   <string name="about_license_title">라이센스</string>
   <string name="about_source_title">소스 코드</string>
   <string name="about_category_credits">이 앱이 사용 중인 프로토콜</string>
-  <string name="about_credits_XPChainj_title">XPChainj %s 버전</string>
+  <string name="about_credits_bitcoinj_title">XPChainj %s 버전</string>
   <string name="about_credits_zxing_title">ZXing의 QR코드 처리 라이브러리</string>
   <string name="about_market_app_summary">앱 리뷰 또는 등급 점수 매기러 가기</string>
   <string name="about_faq_title">FAQ</string>

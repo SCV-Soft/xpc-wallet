@@ -187,7 +187,7 @@
   <string name="scan_camera_problem_dialog_message">Ka një problem me kamerën, ju duhet ndoshta të ristartoni pajisjen tuaj.</string>
   <string name="input_parser_io_error">Nuk mund të lexojë: \n%s</string>
   <string name="input_parser_cannot_classify">Nuk mund të njoh hyrjen:\n%s</string>
-  <string name="input_parser_invalid_XPChain_uri">Jovalid XPChain URI:\n%s</string>
+  <string name="input_parser_invalid_bitcoin_uri">Jovalid XPChain URI:\n%s</string>
   <string name="input_parser_invalid_address">XPChain adresë jovalide!\(Keni ngatërruar mainnet/testnet?)</string>
   <string name="input_parser_unverifyable_paymentrequest">Nuk mund të verifikohet kërkesa për pages:\n%s</string>
   <string name="input_parser_invalid_paymentrequest">Kërkes jo valide për pages:\n%s</string>
@@ -229,7 +229,7 @@
   <string name="about_license_title">Licenca</string>
   <string name="about_source_title">Kodi burimor</string>
   <string name="about_category_credits">Ky program përdor…</string>
-  <string name="about_credits_XPChainj_title">XPChainj %s</string>
+  <string name="about_credits_bitcoinj_title">XPChainj %s</string>
   <string name="about_credits_zxing_title">ZXing</string>
   <string name="about_market_app_title">Faqja ne %s</string>
   <string name="about_market_app_summary">Shqyrtoni apo vlersoni aplikacionin</string>

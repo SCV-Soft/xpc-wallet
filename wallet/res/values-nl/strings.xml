@@ -228,7 +228,7 @@
   <string name="scan_camera_permission_dialog_message">Om QR codes te scannen moet je toestemming geven om de camera te kunnen gebruiken.</string>
   <string name="input_parser_io_error">Kan gegevens niet lezen:\n%s</string>
   <string name="input_parser_cannot_classify">Invoer niet herkend:\n%s</string>
-  <string name="input_parser_invalid_XPChain_uri">Ongeldige XPChain URI:\n%s</string>
+  <string name="input_parser_invalid_bitcoin_uri">Ongeldige XPChain URI:\n%s</string>
   <string name="input_parser_invalid_address">Ongeldig XPChainadres ontvangen!\n(Haal je mainnet/testnet door elkaar?)</string>
   <string name="input_parser_unverifyable_paymentrequest">Uw betalingsverzoek:\n%s kan niet geverifieerd worden</string>
   <string name="input_parser_invalid_paymentrequest">Ongeldig betalingsverzoek:\n%s</string>
@@ -304,7 +304,7 @@
   <string name="about_license_title">Licentie</string>
   <string name="about_source_title">Broncode</string>
   <string name="about_category_credits">Deze app gebruikt…</string>
-  <string name="about_credits_XPChainj_title">XPChainj %s, een XPChain protocol implementatie</string>
+  <string name="about_credits_bitcoinj_title">XPChainj %s, een XPChain protocol implementatie</string>
   <string name="about_credits_zxing_title">ZXing, een QR-code processing bibliotheek</string>
   <string name="about_credits_bouncycastle_title">Bouncy Castle, een cryptografische bibliotheek</string>
   <string name="about_credits_okhttp_title">OkHttp, een HTTP-client-bibliotheek</string>

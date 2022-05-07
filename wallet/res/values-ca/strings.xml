@@ -217,7 +217,7 @@
   <string name="scan_camera_permission_dialog_message">Per poder escanejar codis QR, cal concedir el permís d\'utilitzar la càmera.</string>
   <string name="input_parser_io_error">No es poden llegir les dades:\n%s</string>
   <string name="input_parser_cannot_classify">No es pot reconèixer l\'entrada:\n%s</string>
-  <string name="input_parser_invalid_XPChain_uri">Adreça de XPChain no vàlida:\n%s</string>
+  <string name="input_parser_invalid_bitcoin_uri">Adreça de XPChain no vàlida:\n%s</string>
   <string name="input_parser_invalid_address">Direcció rebuda de XPChain no vàlida.!\n(Mixing up mainnet/testnet?)</string>
   <string name="input_parser_unverifyable_paymentrequest">No es pot verificar la petició de pagament:\n%s</string>
   <string name="input_parser_invalid_paymentrequest">Petició de pagament no vàlida:\n%s</string>
@@ -277,7 +277,7 @@
   <string name="about_license_title">Llicència</string>
   <string name="about_source_title">Codi font</string>
   <string name="about_category_credits">Aquesta aplicació utilitza…</string>
-  <string name="about_credits_XPChainj_title">XPChainj %s</string>
+  <string name="about_credits_bitcoinj_title">XPChainj %s</string>
   <string name="about_credits_zxing_title">ZXing</string>
   <string name="about_market_app_title">Pàgina de %s</string>
   <string name="about_market_app_summary">Analitza o puntua l\'aplicació</string>

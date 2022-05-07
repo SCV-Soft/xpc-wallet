@@ -190,7 +190,7 @@
   <string name="scan_camera_permission_dialog_message">Aby zeskanować QR kod musisz przyznać aplikacji uprawienie do aparatu.</string>
   <string name="input_parser_io_error">Nie można odczytać danych:\n%s</string>
   <string name="input_parser_cannot_classify">Nie rozpoznano wejścia:\n%s</string>
-  <string name="input_parser_invalid_XPChain_uri">Nieprawidłowe XPChain URI:\n%s</string>
+  <string name="input_parser_invalid_bitcoin_uri">Nieprawidłowe XPChain URI:\n%s</string>
   <string name="input_parser_unverifyable_paymentrequest">Nie można zweryfikować żądania płatności:\n%s </string>
   <string name="input_parser_invalid_paymentrequest">Nieprawidłowe żądanie płatności:\n%s</string>
   <string name="input_parser_invalid_transaction">Nieprawidłowa transakcja:\n%s</string>
