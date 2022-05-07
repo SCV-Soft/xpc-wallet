@@ -26,7 +26,7 @@ import okhttp3.logging.HttpLoggingInterceptor;
 import org.bitcoinj.core.Coin;
 import org.bitcoinj.core.Context;
 import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.params.MainNetParams;
+import com.xpchain.wallet.MainNetParams;
 import org.bitcoinj.params.TestNet3Params;
 import org.bitcoinj.script.Script;
 import org.bitcoinj.utils.MonetaryFormat;
@@ -109,6 +109,8 @@ public final class Constants {
     /** URL to fetch version alerts from. */
     public static final HttpUrl VERSION_URL = HttpUrl.parse("https://wallet.schildbach.de/version"
             + (NETWORK_PARAMETERS.getId().equals(NetworkParameters.ID_MAINNET) ? "" : "-test"));
+
+    /** TODO : fix dynamic fee resolver BTC to XPC */
     /** URL to fetch dynamic fees from. */
     public static final HttpUrl DYNAMIC_FEES_URL = HttpUrl.parse("https://wallet.schildbach.de/fees");
 
@@ -160,7 +162,7 @@ public final class Constants {
     public static final BaseEncoding HEX = BaseEncoding.base16().lowerCase();
 
     public static final String SOURCE_URL = "https://github.com/xpc-wallet/xpc-wallet";
-    public static final String BINARY_URL = "https://wallet.schildbach.de/";
+    public static final String BINARY_URL = "https://github.com/xpc-wallet/xpc-wallet/releases";
 
     public static final int PEER_DISCOVERY_TIMEOUT_MS = 5 * (int) DateUtils.SECOND_IN_MILLIS;
     public static final int PEER_TIMEOUT_MS = 15 * (int) DateUtils.SECOND_IN_MILLIS;
@@ -180,7 +182,7 @@ public final class Constants {
     public static final Coin SOME_BALANCE_THRESHOLD = Coin.COIN.divide(1600);
 
     public static final int SDK_DEPRECATED_BELOW = Build.VERSION_CODES.N;
-    public static final String SECURITY_PATCH_INSECURE_BELOW = "2020-10-01";
+    public static final String SECURITY_PATCH_INSECURE_BELOW = "2021-12-31";
 
     public static final int NOTIFICATION_ID_CONNECTIVITY = 1;
     public static final int NOTIFICATION_ID_COINS_RECEIVED = 2;
@@ -196,6 +198,7 @@ public final class Constants {
     public static final int SCRYPT_ITERATIONS_TARGET_LOWRAM = 32768;
 
     /** Default ports for Electrum servers */
+    /** TODO : fix it for xpchain */
     public static final int ELECTRUM_SERVER_DEFAULT_PORT_TCP = NETWORK_PARAMETERS.getId()
             .equals(NetworkParameters.ID_MAINNET) ? 50001 : 51001;
     public static final int ELECTRUM_SERVER_DEFAULT_PORT_TLS = NETWORK_PARAMETERS.getId()
