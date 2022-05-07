@@ -42,8 +42,10 @@ ext {
 
 android {
     signingConfigs {
+        debug {
+        }
         prod {
-            storeFile file('/Users/yuntaeil/Desktop/FIle/scvs0ft/xpc-wallet/key.jks')
+            storeFile file('../key.jks')
             storePassword 'scvsoft'
             keyAlias 'key0'
             keyPassword 'scvsoft'
@@ -60,6 +62,7 @@ android {
 //            preDexLibraries false
 //        }
         vectorDrawables.useSupportLibrary = true
+        signingConfig signingConfigs.prod
     }
 
     buildTypes {
