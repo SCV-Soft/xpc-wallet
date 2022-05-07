@@ -105,15 +105,18 @@ public final class Constants {
         public static final String ELECTRUM_SERVERS_ASSET = "electrum-servers.txt";
     }
 
+    /** TODO : fix dynamic fee resolver BTC to XPC */
     /** URL to fetch version alerts from. */
     public static final HttpUrl VERSION_URL = HttpUrl.parse("https://wallet.schildbach.de/version"
             + (NETWORK_PARAMETERS.getId().equals(NetworkParameters.ID_MAINNET) ? "" : "-test"));
     /** URL to fetch dynamic fees from. */
     public static final HttpUrl DYNAMIC_FEES_URL = HttpUrl.parse("https://wallet.schildbach.de/fees");
 
+    /** TODO : update MIME (is it ok?) */
     /** MIME type used for transmitting single transactions. */
     public static final String MIMETYPE_TRANSACTION = "application/x-btctx";
 
+    /** TODO : update MIME (is it ok?) */
     /** MIME type used for transmitting wallet backups. */
     public static final String MIMETYPE_WALLET_BACKUP = "application/x-bitcoin-wallet-backup";
 
@@ -126,6 +129,7 @@ public final class Constants {
     /** Default currency to use if all default mechanisms fail. */
     public static final String DEFAULT_EXCHANGE_CURRENCY = "USD";
 
+    /** TODO : update donation address */
     /** Donation address for tip/donate action. */
     public static final String DONATION_ADDRESS = NETWORK_PARAMETERS.getId().equals(NetworkParameters.ID_MAINNET)
             ? "bc1qgm3m0qg0sxggd0klauec5wradqyd66ydrrwy3f" : null;
