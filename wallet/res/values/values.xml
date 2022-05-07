@@ -23,19 +23,9 @@
         <item>@string/preferences_precision_labels_0_8</item>
     </string-array>
     <string-array name="preferences_block_explorer_values">
-        <!-- TODO : fix it -->
-        <item>https://www.blockchain.com/btc-testnet/</item> 
-        <item>https://testnet.bitcoinexplorer.org/</item>
-        <item>https://live.blockcypher.com/btc-testnet/</item>
-        <item>https://mempool.space/testnet/</item>
-        <item>https://mempool.emzy.de/testnet/</item>
+        <item>https://explorer.xpchain.co.kr/</item>
     </string-array>
     <string-array name="preferences_block_explorer_labels">
-        <!-- TODO : fix it -->
-        <item>blockchain.info</item>
-        <item>testnet.bitcoinexplorer.org</item>
-        <item>live.blockcypher.com</item>
-        <item>mempool.space</item>
-        <item>mempool.emzy.de</item>
+        <item>explorer.xpchain.co.kr</item>
     </string-array>
 </resources>

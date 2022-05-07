@@ -131,10 +131,9 @@ public final class Constants {
     /** Default currency to use if all default mechanisms fail. */
     public static final String DEFAULT_EXCHANGE_CURRENCY = "USD";
 
-    /** TODO : update donation address */
+    /** TODO : update donation address (now null)*/
     /** Donation address for tip/donate action. */
-    public static final String DONATION_ADDRESS = NETWORK_PARAMETERS.getId().equals(NetworkParameters.ID_MAINNET)
-            ? "bc1qgm3m0qg0sxggd0klauec5wradqyd66ydrrwy3f" : null;
+    public static final String DONATION_ADDRESS = null;
 
     /** Recipient e-mail address for reports. */
     public static final String REPORT_EMAIL = "arnoldcho@xpchain.co.kr";
@@ -198,7 +197,7 @@ public final class Constants {
     public static final int SCRYPT_ITERATIONS_TARGET_LOWRAM = 32768;
 
     /** Default ports for Electrum servers */
-    /** TODO : fix it for xpchain */
+    /** TODO : fix it for xpchain electrum port */
     public static final int ELECTRUM_SERVER_DEFAULT_PORT_TCP = NETWORK_PARAMETERS.getId()
             .equals(NetworkParameters.ID_MAINNET) ? 50001 : 51001;
     public static final int ELECTRUM_SERVER_DEFAULT_PORT_TLS = NETWORK_PARAMETERS.getId()

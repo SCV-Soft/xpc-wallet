@@ -253,14 +253,12 @@ public final class BitcoinIntegration {
     }
 
     private static void redirectToDownload(final Context context) {
-        // TODO : fix it
         Toast.makeText(context, "No XPChain application found.\nPlease install XPChain Wallet.", Toast.LENGTH_LONG)
                 .show();
 
         final Intent marketIntent = new Intent(Intent.ACTION_VIEW,
                 Uri.parse("market://details?id=com.xpchain.wallet"));
         final Intent binaryIntent = new Intent(Intent.ACTION_VIEW,
-                // TODO : fix it
                 Uri.parse("https://github.com/xpc-wallet/xpc-wallet/releases"));
 
 
