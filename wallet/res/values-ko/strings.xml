@@ -14,7 +14,7 @@
   <string name="wallet_address_fragment_clipboard_msg">XPChain 주소가 클립보드에 복사되었습니다</string>
   <string name="wallet_address_dialog_fragment_hint">당신의 비밀을 보호하기 위해 송금내역을 받은 후에 당신의 주소가 변경될 것입니다.</string>
   <string name="wallet_balance_fragment_insecure_device">현재 사용하는 장치 기기가 아주 오래되었거나 안전하지 않습니다. XPChain의 안전한 거래를 위해 작은 양만 사용하는 것이 좋습니다.</string>
-  <string name="wallet_balance_fragment_replaying">블럭체인 초기화 중, 잔액을 사용할 수 없습니다.</string>
+  <string name="wallet_balance_fragment_replaying">블록체인 초기화 중, 잔액을 사용할 수 없습니다.</string>
   <string name="exchange_rates_activity_title">환율 목록</string>
   <string name="exchange_rates_fragment_empty_search">환율 정보를 찾지 못했습니다.</string>
   <string name="exchange_rates_fragment_default">(기본값)</string>
@@ -74,7 +74,7 @@
   <string name="send_coins_fragment_hint_dusty_send">송금액이 너무 적어 전송 할 수 없습니다.</string>
   <string name="send_coins_fragment_hint_insufficient_money">보유하고 있는 금액이 %s 부족합니다.</string>
   <string name="send_coins_fragment_hint_empty_wallet_failed">극소량의 금액은 송금 가능액에 포함되지 않습니다.</string>
-  <string name="send_coins_fragment_hint_replaying">블럭체인 초기화 중, 초기화가 완료될 때까지 거래가 불가능합니다.</string>
+  <string name="send_coins_fragment_hint_replaying">블록체인 초기화 중, 초기화가 완료될 때까지 거래가 불가능합니다.</string>
   <string name="send_coins_fragment_direct_payment_enable">XPChain이 수신인에게 바로 송금됩니다.</string>
   <string name="send_coins_fragment_direct_payment_ack">송금이 완료되었습니다.</string>
   <string name="send_coins_fragment_direct_payment_nack">송금 시도가 직접 연결된 곳으로부터 거부되었습니다.</string>
@@ -167,7 +167,7 @@
   <string name="transaction_row_message_received_dust">현재 입력한 극소량의 금액은 송금되지 않을 수 있습니다.</string>
   <string name="transaction_row_message_received_pay_to_many">현재 송금 거래는 당신의 주소 외에 다른 여러 지갑으로의 송금을 포함하고 있어, 결제 처리 도중 앱이 느려질 수 있습니다. 가능하다면 송금자에게 당신의 주소만 포함해서 송금하도록 요청하십시오.</string>
   <string name="transaction_row_message_received_rbf">송금자가 안전하지 않은 거래 유형을 사용함으로써, 결제 완료가 지연되어 지금 도착했습니다.</string>
-  <string name="network_monitor_activity_title">블럭체인 모니터링</string>
+  <string name="network_monitor_activity_title">블록체인 모니터링</string>
   <string name="network_monitor_peer_list_title">피어(Peer) 현황</string>
   <string name="network_monitor_block_list_title">블럭</string>
   <string name="block_row_mining_difficulty_adjustment">채굴 난이도 조정</string>
@@ -246,9 +246,9 @@
   <string name="preferences_remind_balance_summary">앱에 잔액이 남아 있는 상태에서 몇 주간 사용을 하지 않으면 앱이 알람을 보냅니다.</string>
   <string name="preferences_show_disclaimer_title">면책 조항 표시</string>
   <string name="preferences_report_issue_title">오류 보고</string>
-  <string name="preferences_initiate_reset_title">블럭체인 재설정</string>
+  <string name="preferences_initiate_reset_title">블록체인 재설정</string>
   <string name="preferences_initiate_reset_summary">블럭 체인과 거래 내역, XPChain 잔액을 다시 읽어들입니다. 이 리셋 과정에 상당히 많은 시간이 소요되므로 이 기능이 무엇인지 정확히 이해하고 있는 경우에만 적용하십시오.</string>
-  <string name="preferences_initiate_reset_dialog_message">블럭체인을 초기화한 후 다시 불러오겠습니까?\n\n이 작업을 진행하면 지갑의 잔액과 거래 내역이 일시적으로 표시되지 않습니다. 블럭체인 동기화 완료 시, 다시 정상적으로 표시됩니다.</string>
+  <string name="preferences_initiate_reset_dialog_message">블록체인을 초기화한 후 다시 불러오겠습니까?\n\n이 작업을 진행하면 지갑의 잔액과 거래 내역이 일시적으로 표시되지 않습니다. 블록체인 동기화 완료 시, 다시 정상적으로 표시됩니다.</string>
   <string name="preferences_initiate_reset_dialog_positive">재동기화</string>
   <string name="preferences_extended_public_key_title">extended public key 보이기</string>
   <string name="preferences_extended_public_key_summary">전자지갑의 확장 공개키를 표시해서 다른 앱과 서비스로 내보낼 수 있습니다. 지갑의 잔액과 거래 내역이 다른 사람에게 공개될 수 있으므로 주의해야 합니다.</string>
@@ -308,7 +308,7 @@
   <string name="button_scan">QR 읽기</string>
   <string name="button_settings">설정</string>
   <string name="action_show_qr">QR코드 보기</string>
-  <string name="action_browse">블럭체인 탐색</string>
+  <string name="action_browse">블록체인 탐색</string>
   <!--generic strings-->
   <string name="time_today">오늘</string>
   <string name="address_unlabeled">(이름 없음)</string>
