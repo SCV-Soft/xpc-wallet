@@ -20,18 +20,15 @@ package com.xpchain.wallet;
 import static com.google.common.base.Preconditions.checkState;
 
 import org.bitcoinj.core.Block;
-import org.bitcoinj.core.ECKey;
 import org.bitcoinj.core.Sha256Hash;
 import org.bitcoinj.core.Utils;
 import org.bitcoinj.net.discovery.HttpDiscovery;
 import org.bitcoinj.params.AbstractBitcoinNetParams;
 
-import java.net.URI;
-
 /**
  * Parameters for the main production network on which people trade goods and services.
  */
-public class MainNetParams extends AbstractBitcoinNetParams {
+public class XPCMainnetParams extends AbstractBitcoinNetParams {
     public static final int MAINNET_MAJORITY_WINDOW = 1000;
     public static final int MAINNET_MAJORITY_REJECT_BLOCK_OUTDATED = 950;
     public static final int MAINNET_MAJORITY_ENFORCE_BLOCK_UPGRADE = 750;
@@ -39,9 +36,10 @@ public class MainNetParams extends AbstractBitcoinNetParams {
     private static final long GENESIS_NONCE = 1280281997;
     private static final Sha256Hash GENESIS_HASH = Sha256Hash.wrap("000000009f4a28557aad6be5910c39d40e8a44e596d5ad485a9e4a7d4d72937c");
 
-    public MainNetParams() {
+    public XPCMainnetParams() {
         super();
-        id = ID_MAINNET; // "org.bitcoin.production"
+        // id = ID_MAINNET; // "org.bitcoin.production"
+        id = "io.xpchain.production";
 
         targetTimespan = TARGET_TIMESPAN;
         maxTarget = Utils.decodeCompactBits(Block.STANDARD_MAX_DIFFICULTY_TARGET); // TODO : need to check
@@ -95,10 +93,10 @@ public class MainNetParams extends AbstractBitcoinNetParams {
         // not in use!
     }
 
-    private static MainNetParams instance;
-    public static synchronized MainNetParams get() {
+    private static XPCMainnetParams instance;
+    public static synchronized XPCMainnetParams get() {
         if (instance == null) {
-            instance = new MainNetParams();
+            instance = new XPCMainnetParams();
         }
         return instance;
     }

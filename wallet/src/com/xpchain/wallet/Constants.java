@@ -26,8 +26,7 @@ import okhttp3.logging.HttpLoggingInterceptor;
 import org.bitcoinj.core.Coin;
 import org.bitcoinj.core.Context;
 import org.bitcoinj.core.NetworkParameters;
-import com.xpchain.wallet.MainNetParams;
-import org.bitcoinj.params.TestNet3Params;
+import com.xpchain.wallet.XPCMainnetParams;
 import org.bitcoinj.script.Script;
 import org.bitcoinj.utils.MonetaryFormat;
 import org.slf4j.Logger;
@@ -41,7 +40,7 @@ import java.util.concurrent.TimeUnit;
 public final class Constants {
 
     /** Network this wallet is on (e.g. testnet or mainnet). */
-    public static final NetworkParameters NETWORK_PARAMETERS = MainNetParams.get();
+    public static final NetworkParameters NETWORK_PARAMETERS = XPCMainnetParams.get();
 
     /** Bitcoinj global context. */
     public static final Context CONTEXT = new Context(NETWORK_PARAMETERS);
@@ -69,7 +68,7 @@ public final class Constants {
 
     public final static class Files {
         private static final String FILENAME_NETWORK_SUFFIX = NETWORK_PARAMETERS.getId()
-                .equals(NetworkParameters.ID_MAINNET) ? "" : "-testnet";
+                .equals(NetworkParameters.ID_MAINNET) ? "" : "";
 
         /** Filename of the wallet. */
         public static final String WALLET_FILENAME_PROTOBUF = "wallet-protobuf" + FILENAME_NETWORK_SUFFIX;
@@ -108,7 +107,7 @@ public final class Constants {
     /** TODO : fix dynamic fee resolver BTC to XPC */
     /** URL to fetch version alerts from. */
     public static final HttpUrl VERSION_URL = HttpUrl.parse("https://wallet.schildbach.de/version"
-            + (NETWORK_PARAMETERS.getId().equals(NetworkParameters.ID_MAINNET) ? "" : "-test"));
+            + (NETWORK_PARAMETERS.getId().equals(NetworkParameters.ID_MAINNET) ? "" : ""));
 
     /** TODO : fix dynamic fee resolver BTC to XPC */
     /** URL to fetch dynamic fees from. */
