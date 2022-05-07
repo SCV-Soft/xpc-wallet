@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">XPChain Wallet</string>
-    <string name="app_name_short">Bitcoin</string>
+    <string name="app_name_short">XPC</string>
 
     <string-array name="preferences_block_explorer_values">
         <item>https://explorer.xpchain.co.kr/</item>
