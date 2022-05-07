@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Bitcoin Wallet</string>
+    <string name="app_name">XPChain Wallet</string>
     <string name="app_name_short">Bitcoin</string>
 
     <string-array name="preferences_block_explorer_values">

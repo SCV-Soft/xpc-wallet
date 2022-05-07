@@ -1,10 +1,10 @@
-<b>Tingues els teus Bitcoins sempre amb tu, a la teva butxaca!.<b> Per pagar ràpidament escanejant un codi QR. Com a comerciant, pots rebre pagaments instantàniament amb confiança. La Cartera Bitcoin és la primera aplicació mòbil de Bitcoin i possiblement també la més segura!.
+<b>Tingues els teus Bitcoins sempre amb tu, a la teva butxaca!.<b> Per pagar ràpidament escanejant un codi QR. Com a comerciant, pots rebre pagaments instantàniament amb confiança. La Cartera XPChain és la primera aplicació mòbil de XPChain i possiblement també la més segura!.
 
 
 <b>CARACTERÍSTIQUES</b>
 
 • Sense enregistrar-se ni amb necessitat d'un servei web o al núvol!. Aquesta cartera és descentralitzada i de parell a parell.
-• Mostra l'import de bitcoin en BTC, mXPC i µXPC.
+• Mostra l'import de XPChain en XPC, mXPC i µXPC.
 • Conversió cap a i des de divises nacionals.
 • Enviar i rebre bitcoins a través d'NFC, codis QR i adreces Bitcoin.
 • Quan ets fora de línia, encara pots pagar a través de Bluetooth.
@@ -15,11 +15,11 @@
 
 <b>COL·LABORAR</b>
 
-La Cartera de Bitcoin és <b>codi obert</b> i <b>programari lliure</b>. Llicència: GPLv3
+La Cartera de XPChain és <b>codi obert</b> i <b>programari lliure</b>. Llicència: GPLv3
 https://www.gnu.org/licenses/gpl-3.0.ca.html
 
 El nostre codi està disponible a GitHub:
-https://github.com/bitcoin-wallet/bitcoin-wallet
+https://github.com/xpc-wallet/xpc-wallet
 
 Totes les traduccions estan gestionades a través de Transifex:
 https://www.transifex.com/bitcoin-wallet/bitcoin-wallet/

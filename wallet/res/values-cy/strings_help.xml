@@ -3,11 +3,11 @@
   <string name="help_wallet">
 <![CDATA[
 		<p>
-			Mae rhan dde uchaf y sgrin yn dangos dy falans mewn Bitcoin ac arian un wlad a ddewisir.
+			Mae rhan dde uchaf y sgrin yn dangos dy falans mewn XPChain ac arian un wlad a ddewisir.
 			Tapia i fynd i\'r rhestr o arian gwledydd a thapia ar un ohonynt i\'w osod fel y rhagosodiad.
 		</p>
 		<p>
-			Mae\'r cod QR yn y dde uchaf yn cynnwys dy gyfeiriad Bitcoin cyfredol a gellir ei ddefnyddio i\'w sganio gan dalwr.
+			Mae\'r cod QR yn y dde uchaf yn cynnwys dy gyfeiriad XPChain cyfredol a gellir ei ddefnyddio i\'w sganio gan dalwr.
 			Tapia ar y cod QR i gael fersiwn mwy ohono.
 		</p>
 		<p>
@@ -25,7 +25,7 @@
 <![CDATA[
 		<p>
 			Gan ddefnyddio\'r deialog hwn, gellir wneud cais am Fitcoin gan dalwr.
-			Rhaid bod y talwr eisoes hefyd wedi gosod waled Bitcoin.
+			Rhaid bod y talwr eisoes hefyd wedi gosod waled XPChain.
 		</p>
 		<p>
 			Yn gyntaf, gellir rhoi swm o Fitcoin i wneud cais amdano.
@@ -36,7 +36,7 @@
 			Os yw\'r ddwy ddyfais gydag NFC wedi\'i alluogi, gellir hefyd eu tapio at eu gilydd.
 		</p>
 		<p>
-			Pa bynnag ffordd, caiff y talwr weld deialog i anfon Bitcoin gyda\'r holl meysydd ffurflen wedi\'u cwblhau.
+			Pa bynnag ffordd, caiff y talwr weld deialog i anfon XPChain gyda\'r holl meysydd ffurflen wedi\'u cwblhau.
 			Os yw\'r talwr yn cytuno, caiff wneud y taliad yn hawdd.
 		</p>
 	]]>
@@ -44,10 +44,10 @@
   <string name="help_send_coins">
 <![CDATA[
 		<p>
-			Rwyt wedi dechrau\'r broses o anfon Bitcoin.
+			Rwyt wedi dechrau\'r broses o anfon XPChain.
 		</p>
 		<p>
-			Yn gyntaf, rho\'r cyfeiriad Bitcoin i\'w dalu iddo.
+			Yn gyntaf, rho\'r cyfeiriad XPChain i\'w dalu iddo.
 			Bydd y cyfeiriad yn awto-gwblhau o gofnodion eisoes yn dy lyfr cyfeiriadau.
 			Gellir hefyd sganio cod QR a gyflwynwyd gan y talai gan bwyso\'r botwm camera.
 		</p>
@@ -59,7 +59,7 @@
 		</p>
 		<p>
 			Gellir roi gorchymun taliad heb fod ar-lein.
-			Caiff ei anfon y tro nesaf bydd Waled Bitcoin yn ail-ddechrau.
+			Caiff ei anfon y tro nesaf bydd Waled XPChain yn ail-ddechrau.
 			Os wyt eisiau i daliad cael ei brosesu mor gyflym â phosib, gwiria fod gennyt gysylltiad da (e.e. WLAN).
 		</p>
 		<p>
@@ -75,7 +75,7 @@
 			<b>Nodiadau diogelwch pwysig:</b>
 		</p>
 		<p>
-			Mae Bitcoin yn cael eu cadw ar y ddyfais.
+			Mae XPChain yn cael eu cadw ar y ddyfais.
 			<b>Os wyt ti\'n ei golli, mi fyddi\'n colli dy Fitcoin.</b>
 		</p>
 		<p>
@@ -85,7 +85,7 @@
 		</p>
 		<p>
 			<b>Cyn dadosod</b> (neu glirio data apiau/ailosod dy ddyfais), <b>trosglwydda dy Fitcoin i waled arall</b>.
-			Caiff Bitcoin sy\'n weddill eu colli.
+			Caiff XPChain sy\'n weddill eu colli.
 		</p>
 		<p>
 			<b>Ni ellir dad-wneud taliadau</b>.
@@ -109,13 +109,13 @@
             <b>Nodiadau technegol:</b>
         </p>
         <p>
-            Fel waled ysgafn/SPV, dilyna Bitcoin Wallet y gadwyn prawf-o-waith mwyaf (a elwir hefyd weithiau y \"gadwyn hiraf\", y \"gadwyn enillgar\", neu\'r \"gadwyn bloc Bitcoin\").
+            Fel waled ysgafn/SPV, dilyna XPChain Wallet y gadwyn prawf-o-waith mwyaf (a elwir hefyd weithiau y \"gadwyn hiraf\", y \"gadwyn enillgar\", neu\'r \"gadwyn bloc XPChain\").
             Byddi ond yn derbyn taliadau a medru gwneud taliadau ar y gadwyn honno.
-            Ni ellir gwarantu Bitcoin ar gadwyni lleiafrifol, hynny yw gyda phrawf-o-waith llai.
+            Ni ellir gwarantu XPChain ar gadwyni lleiafrifol, hynny yw gyda phrawf-o-waith llai.
         </p>
         <p>
             Yn y gorffennol, mae cadwyni lleiafrifol wedi dod yn amherthnasol yn gyflym iawn.
-            Os wyt yn dymuno dilyn cadwyn lleiafrifol beth bynnag, fe\'th gynghorir i ddefnyddio\'r nodwedd \"cyfoed dibynadwy\" i gysylltu yn unig gyda gweithrediad bitcoin sy\'n gorfodi\'r gadwyn yn ôl dy ddymuniad.
+            Os wyt yn dymuno dilyn cadwyn lleiafrifol beth bynnag, fe\'th gynghorir i ddefnyddio\'r nodwedd \"cyfoed dibynadwy\" i gysylltu yn unig gyda gweithrediad XPChain sy\'n gorfodi\'r gadwyn yn ôl dy ddymuniad.
             Os nad oes modd ymddiried yn y rhwydwaith yn cysylltu dy waled â\'r cyfoed dibynadwy, defnyddia VPN i ddilysu\'r cysylltiad.
         </p>
     ]]>

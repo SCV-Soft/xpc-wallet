@@ -47,13 +47,13 @@ public final class Constants {
     public static final Context CONTEXT = new Context(NETWORK_PARAMETERS);
 
     /**
-     * The type of Bitcoin addresses used for the initial wallet: {@link Script.ScriptType#P2PKH} for classic
+     * The type of XPChain addresses used for the initial wallet: {@link Script.ScriptType#P2PKH} for classic
      * Base58, {@link Script.ScriptType#P2WPKH} for segwit Bech32.
      */
     public static final Script.ScriptType DEFAULT_OUTPUT_SCRIPT_TYPE = Script.ScriptType.P2WPKH;
 
     /**
-     * The type of Bitcoin addresses to upgrade the current wallet to: {@link Script.ScriptType#P2PKH} for classic
+     * The type of XPChain addresses to upgrade the current wallet to: {@link Script.ScriptType#P2PKH} for classic
      * Base58, {@link Script.ScriptType#P2WPKH} for segwit Bech32.
      */
     public static final Script.ScriptType UPGRADE_OUTPUT_SCRIPT_TYPE = Script.ScriptType.P2WPKH;
@@ -121,7 +121,7 @@ public final class Constants {
     public static final int MAX_NUM_CONFIRMATIONS = 7;
 
     /** User-agent to use for network access. */
-    public static final String USER_AGENT = "Bitcoin Wallet";
+    public static final String USER_AGENT = "XPChain Wallet";
 
     /** Default currency to use if all default mechanisms fail. */
     public static final String DEFAULT_EXCHANGE_CURRENCY = "USD";
@@ -155,7 +155,7 @@ public final class Constants {
 
     public static final BaseEncoding HEX = BaseEncoding.base16().lowerCase();
 
-    public static final String SOURCE_URL = "https://github.com/bitcoin-wallet/bitcoin-wallet";
+    public static final String SOURCE_URL = "https://github.com/xpc-wallet/xpc-wallet";
     public static final String BINARY_URL = "https://wallet.schildbach.de/";
 
     public static final int PEER_DISCOVERY_TIMEOUT_MS = 5 * (int) DateUtils.SECOND_IN_MILLIS;

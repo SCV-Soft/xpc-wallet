@@ -259,7 +259,7 @@ v7.0-v7.01
 
 v6.41
 
-* Use the Unicode Bitcoin symbol if available.
+* Use the Unicode XPChain symbol if available.
 * Backup verification, just to be safe.
 * Update translations from Transifex.
 
@@ -365,7 +365,7 @@ v6.04-v6.06
 
 v6.03
 
-* In payment history, always show fiat amount directly below Bitcoin value.
+* In payment history, always show fiat amount directly below XPChain value.
 
 v6.02
 
@@ -558,7 +558,7 @@ v5.03
 
 v5.02
 
-* Dynamic network fee. This will help dealing with an overloaded Bitcoin network.
+* Dynamic network fee. This will help dealing with an overloaded XPChain network.
 
 v5.01
 
@@ -706,7 +706,7 @@ v4.46
 
 v4.45
 
-* Adjusts to the new network fee rules imposed by Bitcoin Core.
+* Adjusts to the new network fee rules imposed by XPChain Core.
 * Now requires Android 4.0.3 (ICS) for all subprojects.
 * Update Russian, Italian, Turkish, Swedish, Spanish, Norwegian Bokmål, Japanese, Hungarian,
   Finnish, Dutch, Danish, Traditional Chinese and Brazilian Portuguese translations.
@@ -781,7 +781,7 @@ v4.32
 
 * Bugfixes.
 * In-app payments integration (integration-android) now available on Maven Central and jCenter.
-  Also see: https://github.com/bitcoin-wallet/bitcoin-wallet/wiki/InAppPayments
+  Also see: https://github.com/xpc-wallet/xpc-wallet/wiki/InAppPayments
 
 v4.31
 
@@ -930,7 +930,7 @@ v4.06
 
 v4.05
 
-* Re-add textual Bitcoin address to enlarged QR code.
+* Re-add textual XPChain address to enlarged QR code.
 
 v4.04
 
@@ -938,7 +938,7 @@ v4.04
 
 v4.03
 
-* Remove textual Bitcoin address from main screen.
+* Remove textual XPChain address from main screen.
 * Warning for users with pay-to-many transactions. Those will slow down their
   wallet.
 * Workaround for crash in the network monitor.
@@ -956,7 +956,7 @@ v4.01
 
 v4.0
 
-* All Bitcoin addresses are now deterministically derived from one single secret,
+* All XPChain addresses are now deterministically derived from one single secret,
   which was created when you installed the app for the first time. So from now on,
   only one backup is needed to recover all your future funds in that wallet.
 * The app does its best to not reuse addresses any more. "Request coins" will use a
@@ -1042,7 +1042,7 @@ v3.46
 
 * New translation into Slovenian.
 * Update Hebrew translation.
-* Fix missing transactions due to once dusty outputs which are standard as of Bitcoin Core 0.9.
+* Fix missing transactions due to once dusty outputs which are standard as of XPChain Core 0.9.
 * Preparation for fetching payment requests via Bluetooth.
 * Based on bitcoinj 0.11.2.
 
@@ -1102,8 +1102,8 @@ v3.32
 
 v3.31
 
-* Default denomination has changed to millibitcoin (mXPC).
-* Cross-calculated exchange rates for currencies without Bitcoin volume. Thanks to BitcoinAverage.
+* Default denomination has changed to milliXPChain (mXPC).
+* Cross-calculated exchange rates for currencies without XPChain volume. Thanks to BitcoinAverage.
 * Better handling of errors when sending coins, specifically when funds are exceeded.
 * Labs: Uses BIP70 payment protocol for tap-to-pay and scan-to-pay, if enabled in the settings.
 * New translations into Traditional Chinese, Macedonian and Esperanto. Updated Spanish.
@@ -1204,7 +1204,7 @@ v3.13
 
 v3.12
 
-* direct button on main screen for scanning a Bitcoin request QR code
+* direct button on main screen for scanning a XPChain request QR code
 * extended logging
 
 v3.11
@@ -1214,7 +1214,7 @@ v3.11
 v3.10
 
 * embed currency calculator into send and request coins forms
-* change default Bitcoin precision from 8 to 4
+* change default XPChain precision from 8 to 4
 
 v3.09
 
@@ -1295,7 +1295,7 @@ v2.42
 
 v2.41
 
-* labs preference for setting bitcoin value precision
+* labs preference for setting XPChain value precision
 
 v2.40
 

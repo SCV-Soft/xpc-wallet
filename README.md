@@ -1,6 +1,6 @@
-# BITCOIN WALLET
+# XPChain WALLET
 
-Welcome to _Bitcoin Wallet_, a standalone Bitcoin payment app for your Android device!
+Welcome to _XPChain Wallet_, a standalone XPChain payment app for your Android device!
 
 This project contains several sub-projects:
 
@@ -9,10 +9,10 @@ This project contains several sub-projects:
  * __market__:
      App description and promo material for the Google Play app store.
  * __integration-android__:
-     A tiny library for integrating Bitcoin payments into your own Android app
+     A tiny library for integrating XPChain payments into your own Android app
      (e.g. donations, in-app purchases).
  * __sample-integration-android__:
-     A minimal example app to demonstrate integration of Bitcoin payments into
+     A minimal example app to demonstrate integration of XPChain payments into
      your Android app.
 
 
@@ -32,8 +32,8 @@ and unpack it to `$ANDROID_HOME/`.
 Finally, the last preparative step is acquiring the source code. Again in your workspace, use:
 
     # first time only
-    git clone -b master https://github.com/bitcoin-wallet/bitcoin-wallet.git bitcoin-wallet
-    cd bitcoin-wallet
+    git clone -b master https://github.com/xpc-wallet/xpc-wallet.git XPChain-wallet
+    cd XPChain-wallet
 
 
 ### BUILDING

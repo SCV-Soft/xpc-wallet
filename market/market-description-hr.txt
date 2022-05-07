@@ -1,24 +1,24 @@
-<b>Imaj svoje Bitcoin-e uvijek sa sobom, u svom džepu.</b> Plaćaj brzim skeniranjem QR koda. Kao trgovac, primaj uplate sigurno i brzo. Bitcoin Wallet je prva mobilna Bitcoin aplikacija, i ne porecivo najsigurnija!
+<b>Imaj svoje XPChain-e uvijek sa sobom, u svom džepu.</b> Plaćaj brzim skeniranjem QR koda. Kao trgovac, primaj uplate sigurno i brzo. XPChain Wallet je prva mobilna XPChain aplikacija, i ne porecivo najsigurnija!
 
 
 <b>ZNAČAJKE</b>
 
 • Bez registracije, web servis ili cloud potreban! Ovaj novčanik je de-centraliziran i klijent prema klijentu.
-• Prikaži Bitcoin iznos u BTC, mXPC i uBTC.
+• Prikaži XPChain iznos u XPC, mXPC i uXPC.
 • Pretvorba u ili iz nacionalnih valuta.
-• Slanje i primanje Bitcoina s NFC, QR kodom ili Bitcoin URL-om.
+• Slanje i primanje XPChaina s NFC, QR kodom ili XPChain URL-om.
 • Kada si izvan mreže, možete još uvijek preko Bluetooth-a.
 • Sistemske obavjesti za primljene coin-ove.
-• Widgeti aplikacije za balansiranje Bitcoin-ova.
+• Widgeti aplikacije za balansiranje XPChain-ova.
 
 
 <b>DOPRINOS</b>
 
-Bitcoin Wallet je <b>javno dostupan kod</b> i <b>besplatna aplikacija</b>. Licencirana pod GPLv3.
+XPChain Wallet je <b>javno dostupan kod</b> i <b>besplatna aplikacija</b>. Licencirana pod GPLv3.
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Naš izvorni kod je dostušan na GitHub-u:
-https://github.com/bitcoin-wallet/bitcoin-wallet
+https://github.com/xpc-wallet/xpc-wallet
 
 Sve transakcije se provode preko Transifex-a:
 https://www.transifex.com/bitcoin-wallet/bitcoin-wallet/

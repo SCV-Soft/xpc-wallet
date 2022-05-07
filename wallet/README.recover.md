@@ -4,7 +4,7 @@ Recovering Bitcoins
 ## PROLOGUE
 
 This document describes how you can use a backup file on a standard PC to recover your Bitcoins.
-Normally, this shouldn't be needed. It is much preferred to just use **Options > Safety > Restore wallet** from within the Bitcoin Wallet app if you can. This guide is only meant for rare cases:
+Normally, this shouldn't be needed. It is much preferred to just use **Options > Safety > Restore wallet** from within the XPChain Wallet app if you can. This guide is only meant for rare cases:
 
 - Your Android device is destroyed or missing and you do not want or cannot get a new Android
   device.
@@ -110,7 +110,7 @@ succeeds, it will print the transaction hash of the created transaction. You can
 a block explorer to watch, or just open the destination wallet and watch from there. If your coins
 are confirmed, you're done and you can skip the next paragraph to EPILOGUE.
 
-You can also get a list of your private keys, e.g. to claim coins other than Bitcoin which may sit on the same keys. To dump the private keys use:
+You can also get a list of your private keys, e.g. to claim coins other than XPChain which may sit on the same keys. To dump the private keys use:
 
     ./wallet-tool dump --wallet=/tmp/bitcoin-wallet-decrypted-backup --dump-privkeys
 
@@ -129,7 +129,7 @@ datetime string after each key is the birthdate of that key which you can ignore
 of this one-time recovery.
 
 You can import each individual key into a PC wallet like [Electrum](https://electrum.org)
-or [Bitcoin Core](https://bitcoincore.org/).
+or [XPChain Core](https://bitcoincore.org/).
 
 As soon as you see your whole balance again, empty your entire wallet to the desired destination
 wallet. Please do not continue to use the imported wallet. Remember you just operated on

@@ -24,7 +24,7 @@
   <string name="help_request_coins">
 <![CDATA[
 		<p>
-			Pomocí tohoto dialogu můžete vyžádat Bitcoiny od někoho jiného (kdo by měl již také mít aplikaci Bitcoin Wallet).
+			Pomocí tohoto dialogu můžete vyžádat Bitcoiny od někoho jiného (kdo by měl již také mít aplikaci XPChain Wallet).
 		</p>
 		<p>
 			Nejprve zadejte množství Bitcoinů, které požadujete.
@@ -32,7 +32,7 @@
 		<p>
 			Potom můžete protistraně nabídnout vygenerovaný QR kód k oskenování,
 			nebo můžete požadavek zaslat pomocí tlačítka sdílet v rychlé nabídce.
-			Druhá strana potom klikne na Bitcoin URL.
+			Druhá strana potom klikne na XPChain URL.
 		</p>
 		<p>
 			V obou případech odesílatel uvidí dialog na zaslání Bitcoinů s předvyplněnými údaji.
@@ -60,7 +60,7 @@
 		</p>
 		<p>
 			Transakce můžete provádět, i když jste právě offline.
-			Budou provedeny při dalším spuštění aplikace Bitcoin Wallet.
+			Budou provedeny při dalším spuštění aplikace XPChain Wallet.
 			Pokud chcete transakci provést co nejrychleji, ujistěte se, že máte dobré připojení (například pomocí bezdrátové sítě wifi).
 		</p>
 		<p>
@@ -85,7 +85,7 @@
 			Poté udržujte svou zálohu na bezpečném místě a pamatujte si heslo.
 		</p>
 		<p>
-			<b>Před odinstalací aplikace Bitcoin Wallet</b> (nebo výmazem dat aplikace/přístroje), <b>si přepošlete zůstatek do jiné peněženky</b>.
+			<b>Před odinstalací aplikace XPChain Wallet</b> (nebo výmazem dat aplikace/přístroje), <b>si přepošlete zůstatek do jiné peněženky</b>.
 			Jakékoliv zbylé neodeslané Bitcony budou ztraceny.
 		</p>
 		<p>

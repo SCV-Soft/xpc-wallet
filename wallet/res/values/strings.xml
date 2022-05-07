@@ -13,7 +13,7 @@
     <string name="blockchain_state_progress_stalled">Synchronization stalled</string>
     <string name="blockchain_state_progress_problem_storage">Problem with synchronization: Low storage space</string>
     <string name="blockchain_state_progress_problem_network">Problem with synchronization: No network connectivity</string>
-    <string name="wallet_address_fragment_clipboard_msg">Bitcoin address copied to clipboard</string>
+    <string name="wallet_address_fragment_clipboard_msg">XPChain address copied to clipboard</string>
     <string name="wallet_address_dialog_fragment_hint">To protect your privacy, your address will change once it receives a payment.</string>
     <string name="wallet_balance_fragment_insecure_device">Your device is old and insecure. Please only use for small amounts.</string>
     <string name="wallet_balance_fragment_replaying">Balance is unavailable during replay.</string>
@@ -48,7 +48,7 @@
     <string name="alert_dialogs_fragment_insecure_bluetooth_title">Security alert</string>
     <string name="alert_dialogs_fragment_insecure_bluetooth_message">Your device\'s Bluetooth component is vulnerable. Your XPChains on this device are at risk, regardless of the app you\'re using to store them!\n\nWe suggest to switch off Bluetooth immediately and check with your device manufacturer for an Android OS update that implements security patch level \'%s\' or later.</string>
     <string name="wallet_low_storage_dialog_title">Internal device storage space low!</string>
-    <string name="wallet_low_storage_dialog_msg">Bitcoin Wallet uses internal storage for remembering transactions and blocks. If it runs out of space, it will stop working and your XPChains will be at risk!\n\nDo you want to open the Application Manager to uninstall unneeded apps?</string>
+    <string name="wallet_low_storage_dialog_msg">XPChain Wallet uses internal storage for remembering transactions and blocks. If it runs out of space, it will stop working and your XPChains will be at risk!\n\nDo you want to open the Application Manager to uninstall unneeded apps?</string>
     <string name="wallet_low_storage_dialog_button_apps">Manage apps</string>
     <string name="wallet_timeskew_dialog_title">Check date &amp; time settings</string>
     <string name="wallet_timeskew_dialog_msg">Your device time is off by %d minutes. You probably cannot send or receive XPChains due to this problem.\n\nYou should check and if necessary correct your date, time and timezone settings.</string>
@@ -141,7 +141,7 @@
     <string name="request_coins_fragment_accept_bluetooth_payment">Accept payment via Bluetooth for more reliable processing</string>
     <string name="request_coins_fragment_initiate_request_qr">Have this code scanned by the sender.</string>
     <string name="request_coins_fragment_initiate_request_nfc">Or tap an NFC enabled device.</string>
-    <string name="request_coins_clipboard_msg">Bitcoin request copied to clipboard</string>
+    <string name="request_coins_clipboard_msg">XPChain request copied to clipboard</string>
     <string name="request_coins_share_dialog_title">Share request for XPChains…</string>
     <string name="request_coins_no_local_app_msg">No other XPChain app found</string>
     <string name="request_coins_options_local_app_title">Request from local app</string>
@@ -229,7 +229,7 @@
     <string name="scan_camera_permission_dialog_message">In order to scan QR codes, you need to grant permission to use the camera.</string>
     <string name="input_parser_io_error">Cannot read data:\n%s</string>
     <string name="input_parser_cannot_classify">Cannot recognize input:\n%s</string>
-    <string name="input_parser_invalid_bitcoin_uri">Invalid XPChain URI:\n%s</string>
+    <string name="input_parser_invalid_XPChain_uri">Invalid XPChain URI:\n%s</string>
     <string name="input_parser_invalid_address">Got invalid XPChain address!\n(Mixing up mainnet/testnet?)</string>
     <string name="input_parser_unverifyable_paymentrequest">Cannot verify payment request:\n%s</string>
     <string name="input_parser_invalid_paymentrequest">Invalid payment request:\n%s</string>
@@ -242,9 +242,9 @@
     <string name="preferences_category_labs">Labs</string>
     <string name="preferences_precision_title">Denomination and precision</string>
     <string name="preferences_precision_summary">Unit to show amounts in. This does not affect computations.</string>
-    <string name="preferences_precision_labels_8">BTC, 8 decimal places</string>
-    <string name="preferences_precision_labels_6">BTC, 6 decimal places</string>
-    <string name="preferences_precision_labels_4">BTC, 4 decimal places</string>
+    <string name="preferences_precision_labels_8">XPC, 8 decimal places</string>
+    <string name="preferences_precision_labels_6">XPC, 6 decimal places</string>
+    <string name="preferences_precision_labels_4">XPC, 4 decimal places</string>
     <string name="preferences_precision_labels_2_3">mXPC, 2 decimal places</string>
     <string name="preferences_precision_labels_0_6">µXPC, no decimal places</string>
     <string name="preferences_precision_labels_0_8">sat, no decimal places</string>
@@ -308,7 +308,7 @@
     <string name="about_license_title">License</string>
     <string name="about_source_title">Source code</string>
     <string name="about_category_credits">This app is using…</string>
-    <string name="about_credits_bitcoinj_title">bitcoinj %s, a XPChain protocol implementation</string>
+    <string name="about_credits_XPChainj_title">XPChainj %s, a XPChain protocol implementation</string>
     <string name="about_credits_zxing_title">ZXing, a QR-code processing library</string>
     <string name="about_credits_bouncycastle_title">Bouncy Castle, a cryptography library</string>
     <string name="about_credits_okhttp_title">OkHttp, an HTTP client library</string>
@@ -334,7 +334,7 @@
     <string name="notification_channel_received_name">Received payments</string>
     <string name="notification_channel_ongoing_name">Background activity</string>
     <string name="notification_channel_important_name">Important alerts</string>
-    <string name="appwidget_wallet_balance_title">Bitcoin balance</string>
+    <string name="appwidget_wallet_balance_title">XPChain balance</string>
 
     <!-- generic buttons -->
     <string name="button_ok">OK</string>

@@ -1,12 +1,12 @@
-<b>Miej swoje Bitcoiny zawsze przy sobie, w Twojej kieszeni!<b> Możesz płacić przez szybkie zeskanowanie QR kodu. Jako sprzedawca otrzymujesz przelew szybko i bezpiecznie. Bitcoin Wallet jest pierwszą mobilną Bitcoin aplikacją oraz jest uważany za najbardziej bezpieczną.
+<b>Miej swoje Bitcoiny zawsze przy sobie, w Twojej kieszeni!<b> Możesz płacić przez szybkie zeskanowanie QR kodu. Jako sprzedawca otrzymujesz przelew szybko i bezpiecznie. XPChain Wallet jest pierwszą mobilną XPChain aplikacją oraz jest uważany za najbardziej bezpieczną.
 
 
 <b>NOWOŚCI</b>
 
 • Bez rejestracji, przeglądarki i połączenia z chmurą. Ten portfel jest zdecentralizowany i peer-to-peer.
-• Wyświetlaj ilość bitcoinów w BTC, mXPC lub µXPC.
+• Wyświetlaj ilość bitcoinów w XPC, mXPC lub µXPC.
 • Przelicznik z/do walut narodowych.
-• Wysyłaj i otrzymuj bitcoiny przy pomocy NFC, QRcode lub Bitcoin URL.
+• Wysyłaj i otrzymuj bitcoiny przy pomocy NFC, QRcode lub XPChain URL.
 • Kiedy jesteś offline możesz nadal płacić  przy pomocy Bluetooth.
 • Powiadomienia o otrzymaniu monet.
 • Zamiatanie portfeli papierowych (np. Używanych do przechowywania w chłodni).
@@ -14,11 +14,11 @@
 
 
 <b>PRZYCZYNIĆ SIĘ</b>
-Bitcoin Wallet to oprogramowanie typu <b>open source</b> i <b>free software</b>. Licencja: GPLv3
+XPChain Wallet to oprogramowanie typu <b>open source</b> i <b>free software</b>. Licencja: GPLv3
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Nasz kod źródłowy jest dostępny na GitHub:
-https://github.com/bitcoin-wallet/bitcoin-wallet
+https://github.com/xpc-wallet/xpc-wallet
 
 Wszystkie tłumaczenia są zarządzane przez Transifex:
 https://www.transifex.com/bitcoin-wallet/bitcoin-wallet/

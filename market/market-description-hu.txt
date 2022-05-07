@@ -1,25 +1,25 @@
-<b>Mindig legyenek nálad a Bitcoin-jaid a zsebedben!</b> Úgy tudsz fizetni, hogy gyorsan beolvasol egy QR kódot. Kereskedőként megkapod a fizetséget megbízhatóan és azonnal. A Bitcoin Wallet az első mobil Bitcoin alkalmazás és vitathatatlanul a legbiztonságosabb is!
+<b>Mindig legyenek nálad a XPChain-jaid a zsebedben!</b> Úgy tudsz fizetni, hogy gyorsan beolvasol egy QR kódot. Kereskedőként megkapod a fizetséget megbízhatóan és azonnal. A XPChain Wallet az első mobil XPChain alkalmazás és vitathatatlanul a legbiztonságosabb is!
 
 
 <b>JELLEMZŐK</b>
 
 • Nincs regisztráció és nem szükséges semmiféle háttéralkalmazás futtatása (web, vagy cloud)! Decentralizált és közvetlen (P2P).
-• Bitcoin összeg megjelenítési módok: BTC, mXPC és µXPC.
+• XPChain összeg megjelenítési módok: XPC, mXPC és µXPC.
 • Átváltás a saját valutádra, oda-vissza.
-• Bitcoin küldés és fogadás NFC-n, QR kódokon vagy Bitcoin URL-eken keresztül.
+• XPChain küldés és fogadás NFC-n, QR kódokon vagy XPChain URL-eken keresztül.
 • Offline állapotban is fizethetsz - Bluetooth segítségével.
-• Rendszerüzenet Bitcoin érkezésekor.
+• Rendszerüzenet XPChain érkezésekor.
 • Papírtárcák besöprése (pl. amik hűtőháznak vannak használva).
-• Widget a Bitcoin egyenlegről.
+• Widget a XPChain egyenlegről.
 
 
 <b>HOZZÁJÁRULÁS</b>
 
-A Bitcoin Wallet <b>nyílt forráskódú</b> és <b>ingyenes szoftver</b>. Licenc: GPLv3
+A XPChain Wallet <b>nyílt forráskódú</b> és <b>ingyenes szoftver</b>. Licenc: GPLv3
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 A forráskódunk elérhető a GitHub-on:
-https://github.com/bitcoin-wallet/bitcoin-wallet
+https://github.com/xpc-wallet/xpc-wallet
 
 Minden fordítást a Transifex kezelt:
 https://www.transifex.com/bitcoin-wallet/bitcoin-wallet/

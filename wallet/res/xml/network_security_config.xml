@@ -13,6 +13,7 @@
         <!-- Our own domain to fetch new version notifications from. -->
         <domain includeSubdomains="true">wallet.schildbach.de</domain>
         <!-- Various domains to fetch exchange rates from. -->
+        <!-- TODO : fix it -->
         <domain includeSubdomains="true">coingecko.com</domain>
         <domain includeSubdomains="true">bitcoinaverage.com</domain>
 

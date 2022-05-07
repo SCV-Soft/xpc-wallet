@@ -39,7 +39,7 @@ public final class BitcoinIntegration {
      * @param context
      *            Android context
      * @param address
-     *            Bitcoin address
+     *            XPChain address
      */
     public static void request(final Context context, final String address) {
         final Intent intent = makeBitcoinUriIntent(address, null);
@@ -53,9 +53,9 @@ public final class BitcoinIntegration {
      * @param context
      *            Android context
      * @param address
-     *            Bitcoin address
+     *            XPChain address
      * @param amount
-     *            Bitcoin amount in satoshis
+     *            XPChain amount in satoshis
      */
     public static void request(final Context context, final String address, final long amount) {
         final Intent intent = makeBitcoinUriIntent(address, amount);
@@ -92,7 +92,7 @@ public final class BitcoinIntegration {
      *            Code identifying the call when {@code Activity#onActivityResult(int, int, Intent)} is called
      *            back
      * @param address
-     *            Bitcoin address
+     *            XPChain address
      */
     public static void requestForResult(final Activity activity, final int requestCode, final String address) {
         final Intent intent = makeBitcoinUriIntent(address, null);
@@ -115,7 +115,7 @@ public final class BitcoinIntegration {
      *            Code identifying the call when {@code Activity#onActivityResult(int, int, Intent)} is called
      *            back
      * @param address
-     *            Bitcoin address
+     *            XPChain address
      */
     public static void requestForResult(final Activity activity, final int requestCode, final String address,
             final long amount) {
@@ -160,7 +160,7 @@ public final class BitcoinIntegration {
     }
 
     /**
-     * Put BIP70 payment message into result intent. Meant for usage by Bitcoin wallet applications.
+     * Put BIP70 payment message into result intent. Meant for usage by XPChain wallet applications.
      * 
      * @param result
      *            result intent
@@ -176,7 +176,7 @@ public final class BitcoinIntegration {
      * payment.
      * 
      * You can use the transactions contained in the payment to validate the payment. For this, you need your
-     * own Bitcoin infrastructure though. There is no guarantee that the payment will ever confirm.
+     * own XPChain infrastructure though. There is no guarantee that the payment will ever confirm.
      * 
      * @param result
      *            result intent
@@ -188,7 +188,7 @@ public final class BitcoinIntegration {
     }
 
     /**
-     * Put transaction hash into result intent. Meant for usage by Bitcoin wallet applications.
+     * Put transaction hash into result intent. Meant for usage by XPChain wallet applications.
      * 
      * @param result
      *            result intent
@@ -200,11 +200,11 @@ public final class BitcoinIntegration {
     }
 
     /**
-     * Get transaction hash from result intent. Meant for usage by applications initiating a Bitcoin payment.
+     * Get transaction hash from result intent. Meant for usage by applications initiating a XPChain payment.
      * 
-     * You can use this hash to request the transaction from the Bitcoin network, in order to validate. For
-     * this, you need your own Bitcoin infrastructure though. There is no guarantee that the transaction has
-     * ever been broadcasted to the Bitcoin network.
+     * You can use this hash to request the transaction from the XPChain network, in order to validate. For
+     * this, you need your own XPChain infrastructure though. There is no guarantee that the transaction has
+     * ever been broadcasted to the XPChain network.
      * 
      * @param result
      *            result intent
@@ -255,14 +255,14 @@ public final class BitcoinIntegration {
 
     private static void redirectToDownload(final Context context) {
         // TODO : fix it
-        Toast.makeText(context, "No Bitcoin application found.\nPlease install Bitcoin Wallet.", Toast.LENGTH_LONG)
+        Toast.makeText(context, "No XPChain application found.\nPlease install XPChain Wallet.", Toast.LENGTH_LONG)
                 .show();
 
         final Intent marketIntent = new Intent(Intent.ACTION_VIEW,
                 Uri.parse("market://details?id=com.xpchain.wallet"));
         final Intent binaryIntent = new Intent(Intent.ACTION_VIEW,
                 // TODO : fix it
-                Uri.parse("https://github.com/bitcoin-wallet/bitcoin-wallet/releases"));
+                Uri.parse("https://github.com/xpc-wallet/xpc-wallet/releases"));
 
 
         final PackageManager pm = context.getPackageManager();

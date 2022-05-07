@@ -97,7 +97,7 @@ public abstract class InputParser {
 
                     handlePaymentIntent(PaymentIntent.fromBitcoinUri(bitcoinUri));
                 } catch (final BitcoinURIParseException x) {
-                    log.info("got invalid bitcoin uri: '" + input + "'", x);
+                    log.info("got invalid XPChain uri: '" + input + "'", x);
 
                     error(R.string.input_parser_invalid_bitcoin_uri, input);
                 }
