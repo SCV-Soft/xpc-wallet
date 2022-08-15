@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'androidsvgdrawable'
+    id "com.github.mrsarm.jshell.plugin" version "1.2.0"
 }
 
 configurations {
@@ -21,6 +22,7 @@ dependencies {
     implementation 'androidx.sqlite:sqlite:2.2.0'
     implementation "androidx.room:room-runtime:2.4.2"
     annotationProcessor "androidx.room:room-compiler:2.4.2"
+    // TODO : update to xpchainj-core (maybe later)
     implementation 'org.bitcoinj:bitcoinj-core:0.16.1'
     implementation 'com.google.guava:guava:31.0.1-android'
     implementation 'com.google.zxing:core:3.4.1'

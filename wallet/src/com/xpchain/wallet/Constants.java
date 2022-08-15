@@ -159,6 +159,7 @@ public final class Constants {
 
     public static final BaseEncoding HEX = BaseEncoding.base16().lowerCase();
 
+    // TODO : update hard coded
     public static final String SOURCE_URL = "https://github.com/xpc-wallet/xpc-wallet";
     public static final String BINARY_URL = "https://github.com/xpc-wallet/xpc-wallet/releases";
 
@@ -180,6 +181,7 @@ public final class Constants {
     public static final Coin SOME_BALANCE_THRESHOLD = Coin.COIN.divide(1600);
 
     public static final int SDK_DEPRECATED_BELOW = Build.VERSION_CODES.N;
+    // TODO : check this value
     public static final String SECURITY_PATCH_INSECURE_BELOW = "2021-12-31";
 
     public static final int NOTIFICATION_ID_CONNECTIVITY = 1;
@@ -196,7 +198,7 @@ public final class Constants {
     public static final int SCRYPT_ITERATIONS_TARGET_LOWRAM = 32768;
 
     /** Default ports for Electrum servers */
-    /** TODO : fix it for xpchain electrum port */
+    // TODO : fix it for xpchain electrum port
     public static final int ELECTRUM_SERVER_DEFAULT_PORT_TCP = NETWORK_PARAMETERS.getId()
             .equals(NetworkParameters.ID_MAINNET) ? 50001 : 51001;
     public static final int ELECTRUM_SERVER_DEFAULT_PORT_TLS = NETWORK_PARAMETERS.getId()
