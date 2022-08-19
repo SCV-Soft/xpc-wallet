@@ -17,8 +17,7 @@
 
 package com.xpchain.wallet;
 
-import static com.google.common.base.Preconditions.checkState;
-
+//import static com.google.common.base.Preconditions.checkState;
 import org.bitcoinj.core.Block;
 import org.bitcoinj.core.Sha256Hash;
 import org.bitcoinj.core.Utils;
@@ -28,6 +27,7 @@ import org.bitcoinj.params.AbstractBitcoinNetParams;
 /**
  * Parameters for the main production network on which people trade goods and services.
  */
+
 public class XPCMainnetParams extends AbstractBitcoinNetParams {
     public static final int MAINNET_MAJORITY_WINDOW = 1000;
     public static final int MAINNET_MAJORITY_REJECT_BLOCK_OUTDATED = 950;
