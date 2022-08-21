@@ -22,8 +22,7 @@ dependencies {
     implementation 'androidx.sqlite:sqlite:2.2.0'
     implementation "androidx.room:room-runtime:2.4.2"
     annotationProcessor "androidx.room:room-compiler:2.4.2"
-    // TODO : update to xpchainj-core (maybe later)
-    implementation 'org.bitcoinj:bitcoinj-core:0.16.1'
+//    implementation 'org.bitcoinj:bitcoinj-core:0.16.1'
     implementation 'com.google.guava:guava:31.0.1-android'
     implementation 'com.google.zxing:core:3.4.1'
     //noinspection GradleDependency
@@ -33,6 +32,8 @@ dependencies {
     implementation 'com.squareup.moshi:moshi:1.11.0'
     implementation 'org.slf4j:slf4j-api:1.7.32'
     implementation 'com.github.tony19:logback-android:2.0.0'
+    implementation 'com.github.SCV-Soft:xpchainj:0.16.1'
+
     testImplementation 'junit:junit:4.13.2'
     implementation 'com.android.support:multidex:1.0.3'
     implementation 'androidx.work:work-runtime-ktx:2.7.1'

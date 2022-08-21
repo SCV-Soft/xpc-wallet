@@ -17,10 +17,7 @@
 
 package com.xpchain.wallet;
 
-import static com.google.common.base.Preconditions.checkState;
-
-import com.xpchain.wallet.service.BlockchainService;
-
+//import static com.google.common.base.Preconditions.checkState;
 import org.bitcoinj.core.Block;
 import org.bitcoinj.core.Sha256Hash;
 import org.bitcoinj.core.Utils;
@@ -32,6 +29,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Parameters for the main production network on which people trade goods and services.
  */
+
 public class XPCMainnetParams extends AbstractBitcoinNetParams {
     private static final Logger log = LoggerFactory.getLogger(XPCMainnetParams.class);
     public static final int MAINNET_MAJORITY_WINDOW = 1000;
