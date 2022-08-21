@@ -19,16 +19,21 @@ package com.xpchain.wallet;
 
 import static com.google.common.base.Preconditions.checkState;
 
+import com.xpchain.wallet.service.BlockchainService;
+
 import org.bitcoinj.core.Block;
 import org.bitcoinj.core.Sha256Hash;
 import org.bitcoinj.core.Utils;
 import org.bitcoinj.net.discovery.HttpDiscovery;
 import org.bitcoinj.params.AbstractBitcoinNetParams;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Parameters for the main production network on which people trade goods and services.
  */
 public class XPCMainnetParams extends AbstractBitcoinNetParams {
+    private static final Logger log = LoggerFactory.getLogger(XPCMainnetParams.class);
     public static final int MAINNET_MAJORITY_WINDOW = 1000;
     public static final int MAINNET_MAJORITY_REJECT_BLOCK_OUTDATED = 950;
     public static final int MAINNET_MAJORITY_ENFORCE_BLOCK_UPGRADE = 750;
@@ -64,8 +69,8 @@ public class XPCMainnetParams extends AbstractBitcoinNetParams {
         // transactions are handled. Duplicated transactions could occur in the case where a coinbase had the same
         // extraNonce and the same outputs but appeared at different heights, and greatly complicated re-org handling.
         // Having these here simplifies block connection logic considerably.
-        checkpoints.put(10275, Sha256Hash.wrap("000000005a940193bddee51f6c649d3db5d14086201e856b0c8049f625e8e6b7"));
-        checkpoints.put(173800, Sha256Hash.wrap("f85c0d954a11ad61aa1ac267a1c307d429b0fd610c4712964c31babf3caad2fe"));
+        //checkpoints.put(10275, Sha256Hash.wrap("000000005a940193bddee51f6c649d3db5d14086201e856b0c8049f625e8e6b7"));
+        //checkpoints.put(173800, Sha256Hash.wrap("f85c0d954a11ad61aa1ac267a1c307d429b0fd610c4712964c31babf3caad2fe"));
 
         dnsSeeds = new String[] {
                 "seed1.xpchain.io",
@@ -101,6 +106,17 @@ public class XPCMainnetParams extends AbstractBitcoinNetParams {
         return instance;
     }
 
+    /*
+    public static Block createGenesis(NetworkParameters n) {
+        Block genesisBlock = new Block(n, BLOCK_VERSION_GENESIS);
+        Transaction t = createGenesisTransaction(n, genesisTxInputScriptBytes, FIFTY_COINS, genesisTxScriptPubKeyBytes);
+        genesisBlock.addTransaction(t);
+        return genesisBlock;
+    }
+     */
+
+    public static final long BLOCK_VERSION_GENESIS = 1;
+
     @Override
     public Block getGenesisBlock() {
         synchronized (GENESIS_HASH) {
@@ -109,6 +125,8 @@ public class XPCMainnetParams extends AbstractBitcoinNetParams {
                 genesisBlock.setDifficultyTarget(Block.STANDARD_MAX_DIFFICULTY_TARGET);
                 genesisBlock.setTime(GENESIS_TIME);
                 genesisBlock.setNonce(GENESIS_NONCE);
+                log.info("[!!!???!!!] genesisBlock.getHash() : {}", genesisBlock.getHash());
+                log.info("[!!!???!!!] genesisBlock : {}", genesisBlock.toString());
                 // TODO : recover XPChain Genesis block check
                 // checkState(genesisBlock.getHash().equals(GENESIS_HASH), "Invalid genesis hash");
             }

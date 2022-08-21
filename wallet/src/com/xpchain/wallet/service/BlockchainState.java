@@ -17,14 +17,20 @@
 
 package com.xpchain.wallet.service;
 
+import com.xpchain.wallet.WalletApplication;
+
 import java.util.Date;
 import java.util.EnumSet;
 import java.util.Set;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * @author Andreas Schildbach
  */
 public class BlockchainState {
+    private static final Logger log = LoggerFactory.getLogger(BlockchainState.class);
+
     public enum Impediment {
         STORAGE, NETWORK
     }
@@ -40,5 +46,10 @@ public class BlockchainState {
         this.bestChainHeight = bestChainHeight;
         this.replaying = replaying;
         this.impediments = EnumSet.copyOf(impediments);
+        log.info("[!!!???!!!] bestChainDate : {}", bestChainDate);
+        log.info("[!!!???!!!] bestChainHeight : {}", bestChainHeight);
+        log.info("[!!!???!!!] replaying : {}", replaying);
+        log.info("[!!!???!!!] impediments : {}", EnumSet.copyOf(impediments));
+
     }
 }

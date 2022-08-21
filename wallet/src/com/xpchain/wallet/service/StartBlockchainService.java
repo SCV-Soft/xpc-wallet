@@ -33,6 +33,8 @@ import com.xpchain.wallet.Constants;
 import com.xpchain.wallet.WalletApplication;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * @author Andreas Schildbach
@@ -92,8 +94,10 @@ public class StartBlockchainService extends JobService {
             log.info("battery low, not starting block chain sync");
         if (powerSaveMode)
             log.info("power save mode, not starting block chain sync");
-        if (!storageLow && !batteryLow && !powerSaveMode)
+        if (!storageLow && !batteryLow && !powerSaveMode) {
+            log.info("[!!!???!!!] START onStartJob -> BlockchainService.start()");
             BlockchainService.start(this, false);
+        }
         return false;
     }
 

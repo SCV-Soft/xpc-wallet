@@ -497,6 +497,8 @@ public class BlockchainService extends LifecycleService {
 
         addressBookDao = AddressBookDatabase.getDatabase(application).addressBookDao();
         blockChainFile = new File(getDir("blockstore", Context.MODE_PRIVATE), Constants.Files.BLOCKCHAIN_FILENAME);
+        log.info("[!!!???!!!] Constants.Files.BLOCKCHAIN_FILENAME : {}", Constants.Files.BLOCKCHAIN_FILENAME);
+        log.info("[!!!???!!!] blockChainFile : {}", blockChainFile);
 
         config.registerOnSharedPreferenceChangeListener(preferenceChangeListener);
 
@@ -536,6 +538,10 @@ public class BlockchainService extends LifecycleService {
                             Constants.Files.BLOCKCHAIN_STORE_CAPACITY, true);
                     blockStore.getChainHead(); // detect corruptions as early as possible
 
+                    log.info("[!!!???!!!] wallet : {}", wallet);
+                    log.info("[!!!???!!!] blockStore : {}", blockStore);
+                    log.info("[!!!???!!!] blockChainFile : {}", blockChainFile);
+
                     final long earliestKeyCreationTimeSecs = wallet.getEarliestKeyCreationTime();
 
                     if (!blockChainFileExists && earliestKeyCreationTimeSecs > 0) {
@@ -549,6 +555,7 @@ public class BlockchainService extends LifecycleService {
                             CheckpointManager.checkpoint(Constants.NETWORK_PARAMETERS, checkpointsInputStream,
                                     blockStore, earliestKeyCreationTimeSecs);
                             watch.stop();
+                            log.info("[!!!???!!!] checkpoints loaded, took {}", watch);
                             log.info("checkpoints loaded, took {}", watch);
                         } catch (final IOException x) {
                             log.error("problem reading checkpoints, continuing without", x);
@@ -563,7 +570,12 @@ public class BlockchainService extends LifecycleService {
                 }
 
                 try {
-                    blockChain = new BlockChain(Constants.NETWORK_PARAMETERS, wallet, blockStore);
+                    log.info("[!!!???!!!] Constants.NETWORK_PARAMETERS : {}", Constants.NETWORK_PARAMETERS);
+                    log.info("[!!!???!!!] wallet : {}", wallet);
+                    log.info("[!!!???!!!] blockStore : {}", blockStore);
+                    //blockChain = new BlockChain(Constants.NETWORK_PARAMETERS, wallet, blockStore);
+                    blockChain = new BlockChain(Constants.NETWORK_PARAMETERS, blockStore);
+                    log.info("[!!!???!!!] blockChain : {}", blockChain);
                 } catch (final BlockStoreException x) {
                     throw new Error("blockchain cannot be created", x);
                 }
@@ -605,6 +617,10 @@ public class BlockchainService extends LifecycleService {
                 // consistency check
                 final int walletLastBlockSeenHeight = wallet.getLastBlockSeenHeight();
                 final int bestChainHeight = blockChain.getBestChainHeight();
+                log.info("[!!!???!!!] hmm... chainHead : {}", blockChain.getChainHead());
+                log.info("[!!!???!!!] hmm... : {}", blockChain.getChainHead().getHeader().getHash() );
+                log.info("[!!!???!!!] hmm... getHeight : {}", blockChain.getChainHead().getHeight() );
+                log.info("[!!!???!!!] bestChainHeight : {}", bestChainHeight);
                 if (walletLastBlockSeenHeight != -1 && walletLastBlockSeenHeight != bestChainHeight) {
                     final String message = "wallet/blockchain out of sync: " + walletLastBlockSeenHeight + "/"
                             + bestChainHeight;
@@ -631,6 +647,11 @@ public class BlockchainService extends LifecycleService {
                 peerGroup.setPeerDiscoveryTimeoutMillis(Constants.PEER_DISCOVERY_TIMEOUT_MS);
                 peerGroup.setStallThreshold(20, Block.HEADER_SIZE * 10);
 
+                log.info("[!!!???!!!] maxConnectedPeers : {}", maxConnectedPeers);
+                log.info("[!!!???!!!] trustedPeers : {}", trustedPeers);
+                log.info("[!!!???!!!] trustedPeerOnly : {}", trustedPeerOnly);
+                log.info("[!!!???!!!] peerGroup : {}", peerGroup.toString());
+
                 final ResolveDnsTask resolveDnsTask = new ResolveDnsTask(backgroundHandler) {
                     @Override
                     protected void onSuccess(final HostAndPort hostAndPort, final InetSocketAddress socketAddress) {
@@ -655,6 +676,7 @@ public class BlockchainService extends LifecycleService {
                     log.info("trusted peers only – not adding any random nodes from the P2P network");
                 } else {
                     log.info("adding random peers from the P2P network");
+                    log.info("[!!!???!!!] syncMode : {}", syncMode);
                     if (syncMode == Configuration.SyncMode.CONNECTION_FILTER)
                         peerGroup.setRequiredServices(VersionMessage.NODE_BLOOM | VersionMessage.NODE_WITNESS);
                     else
@@ -662,6 +684,7 @@ public class BlockchainService extends LifecycleService {
                 }
 
                 // start peergroup
+                log.info("[!!!???!!!] starting {} asynchronously", peerGroup);
                 log.info("starting {} asynchronously", peerGroup);
                 peerGroup.startAsync();
                 peerGroup.startBlockChainDownload(blockchainDownloadListener);
