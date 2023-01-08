@@ -50,14 +50,14 @@ import com.xpchain.wallet.util.Bluetooth;
 import com.xpchain.wallet.util.CrashReporter;
 import com.xpchain.wallet.util.Toast;
 import com.xpchain.wallet.util.WalletUtils;
-import org.bitcoinj.core.VersionMessage;
-import org.bitcoinj.crypto.LinuxSecureRandom;
-import org.bitcoinj.crypto.MnemonicCode;
-import org.bitcoinj.utils.Threading;
-import org.bitcoinj.wallet.UnreadableWalletException;
-import org.bitcoinj.wallet.Wallet;
-import org.bitcoinj.wallet.WalletFiles;
-import org.bitcoinj.wallet.WalletProtobufSerializer;
+import io.xpchainj.core.VersionMessage;
+import io.xpchainj.crypto.LinuxSecureRandom;
+import io.xpchainj.crypto.MnemonicCode;
+import io.xpchainj.utils.Threading;
+import io.xpchainj.wallet.UnreadableWalletException;
+import io.xpchainj.wallet.Wallet;
+import io.xpchainj.wallet.WalletFiles;
+import io.xpchainj.wallet.WalletProtobufSerializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -99,8 +99,8 @@ public class WalletApplication extends Application {
         initStrictMode();
 
         Threading.throwOnLockCycles();
-        org.bitcoinj.core.Context.enableStrictMode();
-        org.bitcoinj.core.Context.propagate(Constants.CONTEXT);
+        io.xpchainj.core.Context.enableStrictMode();
+        io.xpchainj.core.Context.propagate(Constants.CONTEXT);
 
         log.info("=== starting app using flavor: {}, build type: {}, network: {}", BuildConfig.FLAVOR,
                 BuildConfig.BUILD_TYPE, Constants.NETWORK_PARAMETERS.getId());
@@ -164,7 +164,7 @@ public class WalletApplication extends Application {
         getWalletExecutor.execute(new Runnable() {
             @Override
             public void run() {
-                org.bitcoinj.core.Context.propagate(Constants.CONTEXT);
+                io.xpchainj.core.Context.propagate(Constants.CONTEXT);
                 synchronized (getWalletLock) {
                     initMnemonicCode();
                     if (walletFiles == null)

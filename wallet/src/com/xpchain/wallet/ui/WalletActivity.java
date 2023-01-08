@@ -62,10 +62,10 @@ import com.xpchain.wallet.ui.send.SweepWalletActivity;
 import com.xpchain.wallet.util.CrashReporter;
 import com.xpchain.wallet.util.Nfc;
 import com.xpchain.wallet.util.OnFirstPreDraw;
-import org.bitcoinj.core.PrefixedChecksummedBytes;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.core.VerificationException;
-import org.bitcoinj.script.Script;
+import io.xpchainj.core.PrefixedChecksummedBytes;
+import io.xpchainj.core.Transaction;
+import io.xpchainj.core.VerificationException;
+import io.xpchainj.script.Script;
 
 /**
  * @author Andreas Schildbach

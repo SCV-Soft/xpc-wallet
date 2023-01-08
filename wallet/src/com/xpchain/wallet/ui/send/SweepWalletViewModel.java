@@ -24,8 +24,8 @@ import com.xpchain.wallet.WalletApplication;
 import com.xpchain.wallet.data.DynamicFeeLiveData;
 import com.xpchain.wallet.data.TransactionLiveData;
 import com.xpchain.wallet.ui.DialogEvent;
-import org.bitcoinj.core.PrefixedChecksummedBytes;
-import org.bitcoinj.wallet.Wallet;
+import io.xpchainj.core.PrefixedChecksummedBytes;
+import io.xpchainj.wallet.Wallet;
 
 /**
  * @author Andreas Schildbach

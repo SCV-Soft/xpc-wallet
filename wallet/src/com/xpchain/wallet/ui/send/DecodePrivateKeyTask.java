@@ -19,8 +19,8 @@ package com.xpchain.wallet.ui.send;
 
 import android.os.Handler;
 import android.os.Looper;
-import org.bitcoinj.core.ECKey;
-import org.bitcoinj.crypto.BIP38PrivateKey;
+import io.xpchainj.core.ECKey;
+import io.xpchainj.crypto.BIP38PrivateKey;
 
 /**
  * @author Andreas Schildbach

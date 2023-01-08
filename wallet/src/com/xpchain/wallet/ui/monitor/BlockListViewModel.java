@@ -30,10 +30,10 @@ import com.xpchain.wallet.data.AbstractWalletLiveData;
 import com.xpchain.wallet.data.BlockchainServiceLiveData;
 import com.xpchain.wallet.data.TimeLiveData;
 import com.xpchain.wallet.service.BlockchainService;
-import org.bitcoinj.core.Sha256Hash;
-import org.bitcoinj.core.StoredBlock;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.wallet.Wallet;
+import io.xpchainj.core.Sha256Hash;
+import io.xpchainj.core.StoredBlock;
+import io.xpchainj.core.Transaction;
+import io.xpchainj.wallet.Wallet;
 
 import java.util.HashSet;
 import java.util.List;
@@ -96,7 +96,7 @@ public class BlockListViewModel extends AndroidViewModel {
             if (wallet == null)
                 return;
             AsyncTask.execute(() -> {
-                org.bitcoinj.core.Context.propagate(Constants.CONTEXT);
+                io.xpchainj.core.Context.propagate(Constants.CONTEXT);
                 final Set<Transaction> transactions = wallet.getTransactions(false);
                 final Set<Transaction> filteredTransactions = new HashSet<>(transactions.size());
                 for (final Transaction tx : transactions) {

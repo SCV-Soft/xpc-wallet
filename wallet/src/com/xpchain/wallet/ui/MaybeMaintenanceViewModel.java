@@ -26,9 +26,9 @@ import com.xpchain.wallet.Constants;
 import com.xpchain.wallet.WalletApplication;
 import com.xpchain.wallet.data.AbstractWalletLiveData;
 import com.xpchain.wallet.service.BlockchainState;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.wallet.DeterministicUpgradeRequiresPassword;
-import org.bitcoinj.wallet.Wallet;
+import io.xpchainj.core.Transaction;
+import io.xpchainj.wallet.DeterministicUpgradeRequiresPassword;
+import io.xpchainj.wallet.Wallet;
 
 import java.util.List;
 
@@ -79,7 +79,7 @@ public class MaybeMaintenanceViewModel extends AndroidViewModel {
         protected void load() {
             final Wallet wallet = getWallet();
             AsyncTask.execute(() -> {
-                org.bitcoinj.core.Context.propagate(Constants.CONTEXT);
+                io.xpchainj.core.Context.propagate(Constants.CONTEXT);
                 try {
                     final ListenableFuture<List<Transaction>> result = wallet.doMaintenance(null, false);
                     postValue(!result.get().isEmpty());

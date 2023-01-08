@@ -50,10 +50,10 @@ import com.xpchain.wallet.ui.TransactionsAdapter.WarningType;
 import com.xpchain.wallet.ui.send.RaiseFeeDialogFragment;
 import com.xpchain.wallet.util.Qr;
 import com.xpchain.wallet.util.WalletUtils;
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.Sha256Hash;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.wallet.Wallet;
+import io.xpchainj.core.Address;
+import io.xpchainj.core.Sha256Hash;
+import io.xpchainj.core.Transaction;
+import io.xpchainj.wallet.Wallet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

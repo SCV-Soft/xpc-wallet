@@ -22,7 +22,7 @@ import androidx.lifecycle.Observer;
 import com.xpchain.wallet.WalletApplication;
 import com.xpchain.wallet.WalletApplication.OnWalletLoadedListener;
 import com.xpchain.wallet.ui.Event;
-import org.bitcoinj.wallet.Wallet;
+import io.xpchainj.wallet.Wallet;
 
 /**
  * @author Andreas Schildbach

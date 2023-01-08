@@ -25,8 +25,8 @@ import com.xpchain.wallet.Constants;
 import com.xpchain.wallet.WalletApplication;
 import com.xpchain.wallet.data.AbstractWalletLiveData;
 import com.xpchain.wallet.util.OnFirstPreDraw;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.wallet.Wallet;
+import io.xpchainj.script.Script;
+import io.xpchainj.wallet.Wallet;
 
 /**
  * @author Andreas Schildbach
@@ -111,7 +111,7 @@ public class WalletActivityViewModel extends AndroidViewModel implements OnFirst
         protected void load() {
             final Wallet wallet = getWallet();
             AsyncTask.execute(() -> {
-                org.bitcoinj.core.Context.propagate(Constants.CONTEXT);
+                io.xpchainj.core.Context.propagate(Constants.CONTEXT);
                 postValue(wallet.isEncrypted());
             });
         }
@@ -131,7 +131,7 @@ public class WalletActivityViewModel extends AndroidViewModel implements OnFirst
         protected void load() {
             final Wallet wallet = getWallet();
             AsyncTask.execute(() -> {
-                org.bitcoinj.core.Context.propagate(Constants.CONTEXT);
+                io.xpchainj.core.Context.propagate(Constants.CONTEXT);
                 postValue(wallet.getActiveKeyChain().getOutputScriptType() == Script.ScriptType.P2WPKH
                         && wallet.getActiveKeyChains().get(0).getOutputScriptType() != Script.ScriptType.P2WPKH);
             });

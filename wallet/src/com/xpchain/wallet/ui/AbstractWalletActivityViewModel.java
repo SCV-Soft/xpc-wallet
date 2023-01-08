@@ -26,11 +26,11 @@ import com.xpchain.wallet.WalletApplication;
 import com.xpchain.wallet.data.BlockchainServiceLiveData;
 import com.xpchain.wallet.data.WalletLiveData;
 import com.xpchain.wallet.service.BlockchainService;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.core.TransactionBroadcast;
-import org.bitcoinj.core.VerificationException;
-import org.bitcoinj.utils.Threading;
-import org.bitcoinj.wallet.Wallet;
+import io.xpchainj.core.Transaction;
+import io.xpchainj.core.TransactionBroadcast;
+import io.xpchainj.core.VerificationException;
+import io.xpchainj.utils.Threading;
+import io.xpchainj.wallet.Wallet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

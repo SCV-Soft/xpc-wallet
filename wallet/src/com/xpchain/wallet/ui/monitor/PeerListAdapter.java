@@ -36,9 +36,9 @@ import com.google.common.hash.Hashing;
 import com.google.common.net.HostAndPort;
 import com.xpchain.wallet.Constants;
 import com.xpchain.wallet.R;
-import org.bitcoinj.core.Peer;
-import org.bitcoinj.core.PeerAddress;
-import org.bitcoinj.core.VersionMessage;
+import io.xpchainj.core.Peer;
+import io.xpchainj.core.PeerAddress;
+import io.xpchainj.core.VersionMessage;
 
 import java.net.InetAddress;
 import java.util.ArrayList;

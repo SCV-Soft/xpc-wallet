@@ -38,9 +38,9 @@ import com.xpchain.wallet.Constants;
 import com.xpchain.wallet.R;
 import com.xpchain.wallet.util.GenericUtils;
 import com.xpchain.wallet.util.MonetarySpannable;
-import org.bitcoinj.core.Coin;
-import org.bitcoinj.core.Monetary;
-import org.bitcoinj.utils.MonetaryFormat;
+import io.xpchainj.core.Coin;
+import io.xpchainj.core.Monetary;
+import io.xpchainj.utils.MonetaryFormat;
 
 /**
  * @author Andreas Schildbach

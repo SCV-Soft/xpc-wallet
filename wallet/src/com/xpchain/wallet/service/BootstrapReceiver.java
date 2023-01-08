@@ -32,9 +32,9 @@ import com.xpchain.wallet.WalletApplication;
 import com.xpchain.wallet.ui.WalletActivity;
 import com.xpchain.wallet.ui.send.FeeCategory;
 import com.xpchain.wallet.ui.send.SendCoinsActivity;
-import org.bitcoinj.core.Coin;
-import org.bitcoinj.utils.MonetaryFormat;
-import org.bitcoinj.wallet.Wallet;
+import io.xpchainj.core.Coin;
+import io.xpchainj.utils.MonetaryFormat;
+import io.xpchainj.wallet.Wallet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -54,7 +54,7 @@ public class BootstrapReceiver extends BroadcastReceiver {
         log.info("got broadcast: " + intent);
         final PendingResult result = goAsync();
         AsyncTask.execute(() -> {
-            org.bitcoinj.core.Context.propagate(Constants.CONTEXT);
+            io.xpchainj.core.Context.propagate(Constants.CONTEXT);
             onAsyncReceive(context, intent);
             result.finish();
         });

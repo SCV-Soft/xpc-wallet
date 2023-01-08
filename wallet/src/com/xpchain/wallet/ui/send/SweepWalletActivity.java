@@ -23,7 +23,7 @@ import android.os.Bundle;
 import com.xpchain.wallet.R;
 import com.xpchain.wallet.service.BlockchainService;
 import com.xpchain.wallet.ui.AbstractWalletActivity;
-import org.bitcoinj.core.PrefixedChecksummedBytes;
+import io.xpchainj.core.PrefixedChecksummedBytes;
 
 /**
  * @author Andreas Schildbach

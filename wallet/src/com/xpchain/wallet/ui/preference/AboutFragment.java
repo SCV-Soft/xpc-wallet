@@ -33,7 +33,7 @@ import com.xpchain.wallet.WalletApplication;
 import com.xpchain.wallet.ui.DialogBuilder;
 import com.xpchain.wallet.util.Installer;
 import com.xpchain.wallet.util.WalletUtils;
-import org.bitcoinj.core.VersionMessage;
+import io.xpchainj.core.VersionMessage;
 
 import java.io.IOException;
 

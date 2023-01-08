@@ -23,12 +23,11 @@ import com.google.common.io.BaseEncoding;
 import okhttp3.HttpUrl;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
-import org.bitcoinj.core.Coin;
-import org.bitcoinj.core.Context;
-import org.bitcoinj.core.NetworkParameters;
-import com.xpchain.wallet.XPCMainnetParams;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.utils.MonetaryFormat;
+import io.xpchainj.core.Coin;
+import io.xpchainj.core.Context;
+import io.xpchainj.core.NetworkParameters;
+import io.xpchainj.script.Script;
+import io.xpchainj.utils.MonetaryFormat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -40,7 +39,7 @@ import java.util.concurrent.TimeUnit;
 public final class Constants {
 
     /** Network this wallet is on (e.g. testnet or mainnet). */
-    public static final NetworkParameters NETWORK_PARAMETERS = XPCMainnetParams.get();
+    public static final NetworkParameters NETWORK_PARAMETERS = MainnetParams.get();
 
     /** Bitcoinj global context. */
     public static final Context CONTEXT = new Context(NETWORK_PARAMETERS);

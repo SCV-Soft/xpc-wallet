@@ -35,17 +35,17 @@ import com.xpchain.wallet.util.Assets;
 import okio.BufferedSink;
 import okio.BufferedSource;
 import okio.Okio;
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.Coin;
-import org.bitcoinj.core.ECKey;
-import org.bitcoinj.core.LegacyAddress;
-import org.bitcoinj.core.SegwitAddress;
-import org.bitcoinj.core.Sha256Hash;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.core.UTXO;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.script.ScriptBuilder;
-import org.bitcoinj.utils.ContextPropagatingThreadFactory;
+import io.xpchainj.core.Address;
+import io.xpchainj.core.Coin;
+import io.xpchainj.core.ECKey;
+import io.xpchainj.core.LegacyAddress;
+import io.xpchainj.core.SegwitAddress;
+import io.xpchainj.core.Sha256Hash;
+import io.xpchainj.core.Transaction;
+import io.xpchainj.core.UTXO;
+import io.xpchainj.script.Script;
+import io.xpchainj.script.ScriptBuilder;
+import io.xpchainj.utils.ContextPropagatingThreadFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -151,7 +151,7 @@ public final class RequestWalletBalanceTask {
         backgroundHandler.post(new Runnable() {
             @Override
             public void run() {
-                org.bitcoinj.core.Context.propagate(Constants.CONTEXT);
+                io.xpchainj.core.Context.propagate(Constants.CONTEXT);
 
                 final Address legacyAddress = LegacyAddress.fromKey(Constants.NETWORK_PARAMETERS, key);
                 final Script[] outputScripts;

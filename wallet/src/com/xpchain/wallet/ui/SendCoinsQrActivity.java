@@ -28,9 +28,9 @@ import com.xpchain.wallet.ui.InputParser.StringInputParser;
 import com.xpchain.wallet.ui.scan.ScanActivity;
 import com.xpchain.wallet.ui.send.SendCoinsActivity;
 import com.xpchain.wallet.ui.send.SweepWalletActivity;
-import org.bitcoinj.core.PrefixedChecksummedBytes;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.core.VerificationException;
+import io.xpchainj.core.PrefixedChecksummedBytes;
+import io.xpchainj.core.Transaction;
+import io.xpchainj.core.VerificationException;
 
 /**
  * @author Andreas Schildbach

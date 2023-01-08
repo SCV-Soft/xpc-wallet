@@ -39,10 +39,10 @@ import com.xpchain.wallet.Constants;
 import com.xpchain.wallet.R;
 import com.xpchain.wallet.exchangerate.ExchangeRateEntry;
 import com.xpchain.wallet.service.BlockchainState;
-import org.bitcoinj.core.Coin;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.utils.ExchangeRate;
-import org.bitcoinj.utils.Fiat;
+import io.xpchainj.core.Coin;
+import io.xpchainj.core.NetworkParameters;
+import io.xpchainj.utils.ExchangeRate;
+import io.xpchainj.utils.Fiat;
 
 import java.util.ArrayList;
 import java.util.EnumSet;

@@ -44,11 +44,11 @@ import com.xpchain.wallet.WalletApplication;
 import com.xpchain.wallet.ui.AbstractWalletActivity;
 import com.xpchain.wallet.ui.DialogBuilder;
 import com.xpchain.wallet.util.WalletUtils;
-import org.bitcoinj.core.Coin;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.utils.MonetaryFormat;
-import org.bitcoinj.wallet.DeterministicUpgradeRequiresPassword;
-import org.bitcoinj.wallet.Wallet;
+import io.xpchainj.core.Coin;
+import io.xpchainj.core.Transaction;
+import io.xpchainj.utils.MonetaryFormat;
+import io.xpchainj.wallet.DeterministicUpgradeRequiresPassword;
+import io.xpchainj.wallet.Wallet;
 import org.bouncycastle.crypto.params.KeyParameter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -212,7 +212,7 @@ public class MaintenanceDialogFragment extends DialogFragment {
 
     private void doMaintenance(final KeyParameter encryptionKey) {
         backgroundHandler.post(() -> {
-            org.bitcoinj.core.Context.propagate(Constants.CONTEXT);
+            io.xpchainj.core.Context.propagate(Constants.CONTEXT);
 
             try {
                 wallet.doMaintenance(encryptionKey, true);

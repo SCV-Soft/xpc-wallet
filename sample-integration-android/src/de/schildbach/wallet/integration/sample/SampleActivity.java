@@ -30,10 +30,10 @@ import android.widget.Toast;
 import com.google.protobuf.ByteString;
 import com.xpchain.wallet.integration.android.BitcoinIntegration;
 import org.bitcoin.protocols.payments.Protos;
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.AddressFormatException;
-import org.bitcoinj.core.NetworkParameters;
-import org.bitcoinj.script.ScriptBuilder;
+import io.xpchainj.core.Address;
+import io.xpchainj.core.AddressFormatException;
+import io.xpchainj.core.NetworkParameters;
+import io.xpchainj.script.ScriptBuilder;
 
 /**
  * @author Andreas Schildbach

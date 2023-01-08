@@ -30,7 +30,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.common.net.HostAndPort;
 import com.xpchain.wallet.R;
 import com.xpchain.wallet.ui.AbstractWalletActivity;
-import org.bitcoinj.core.Peer;
+import io.xpchainj.core.Peer;
 
 import java.util.List;
 

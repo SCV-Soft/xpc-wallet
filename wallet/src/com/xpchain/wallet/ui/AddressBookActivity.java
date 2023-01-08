@@ -36,10 +36,10 @@ import com.xpchain.wallet.data.PaymentIntent;
 import com.xpchain.wallet.ui.scan.ScanActivity;
 import com.xpchain.wallet.util.ViewPagerTabs;
 import com.xpchain.wallet.util.ZoomOutPageTransformer;
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.core.VerificationException;
-import org.bitcoinj.wallet.Wallet;
+import io.xpchainj.core.Address;
+import io.xpchainj.core.Transaction;
+import io.xpchainj.core.VerificationException;
+import io.xpchainj.wallet.Wallet;
 
 /**
  * @author Andreas Schildbach

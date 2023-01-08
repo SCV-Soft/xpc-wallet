@@ -45,10 +45,10 @@ import com.xpchain.wallet.addressbook.AddressBookDatabase;
 import com.xpchain.wallet.addressbook.AddressBookEntry;
 import com.xpchain.wallet.util.Qr;
 import com.xpchain.wallet.util.Toast;
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.LegacyAddress;
-import org.bitcoinj.uri.BitcoinURI;
-import org.bitcoinj.wallet.Wallet;
+import io.xpchainj.core.Address;
+import io.xpchainj.core.LegacyAddress;
+import io.xpchainj.uri.BitcoinURI;
+import io.xpchainj.wallet.Wallet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

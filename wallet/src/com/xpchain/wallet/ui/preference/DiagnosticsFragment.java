@@ -28,9 +28,9 @@ import com.xpchain.wallet.R;
 import com.xpchain.wallet.WalletApplication;
 import com.xpchain.wallet.service.BlockchainService;
 import com.xpchain.wallet.ui.DialogBuilder;
-import org.bitcoinj.crypto.DeterministicKey;
-import org.bitcoinj.script.Script;
-import org.bitcoinj.wallet.DeterministicKeyChain;
+import io.xpchainj.crypto.DeterministicKey;
+import io.xpchainj.script.Script;
+import io.xpchainj.wallet.DeterministicKeyChain;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

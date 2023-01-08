@@ -19,7 +19,7 @@ package com.xpchain.wallet.ui;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
-import org.bitcoinj.core.Address;
+import io.xpchainj.core.Address;
 
 /**
  * @author Andreas Schildbach

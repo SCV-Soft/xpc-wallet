@@ -24,9 +24,9 @@ import com.xpchain.wallet.Constants;
 import com.xpchain.wallet.util.Bluetooth;
 import org.bitcoin.protocols.payments.Protos;
 import org.bitcoin.protocols.payments.Protos.PaymentACK;
-import org.bitcoinj.core.ProtocolException;
-import org.bitcoinj.core.Transaction;
-import org.bitcoinj.protocols.payments.PaymentProtocol;
+import io.xpchainj.core.ProtocolException;
+import io.xpchainj.core.Transaction;
+import io.xpchainj.protocols.payments.PaymentProtocol;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -57,7 +57,7 @@ public abstract class AcceptBluetoothThread extends Thread {
 
         @Override
         public void run() {
-            org.bitcoinj.core.Context.propagate(Constants.CONTEXT);
+            io.xpchainj.core.Context.propagate(Constants.CONTEXT);
 
             while (running.get()) {
                 try ( // start a blocking call, and return only on success or exception
@@ -102,7 +102,7 @@ public abstract class AcceptBluetoothThread extends Thread {
 
         @Override
         public void run() {
-            org.bitcoinj.core.Context.propagate(Constants.CONTEXT);
+            io.xpchainj.core.Context.propagate(Constants.CONTEXT);
 
             while (running.get()) {
                 try ( // start a blocking call, and return only on success or exception

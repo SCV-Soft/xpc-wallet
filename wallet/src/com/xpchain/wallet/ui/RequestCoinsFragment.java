@@ -60,9 +60,9 @@ import com.xpchain.wallet.ui.send.SendCoinsActivity;
 import com.xpchain.wallet.util.Bluetooth;
 import com.xpchain.wallet.util.Nfc;
 import com.xpchain.wallet.util.Toast;
-import org.bitcoinj.core.Address;
-import org.bitcoinj.protocols.payments.PaymentProtocol;
-import org.bitcoinj.script.Script;
+import io.xpchainj.core.Address;
+import io.xpchainj.protocols.payments.PaymentProtocol;
+import io.xpchainj.script.Script;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
