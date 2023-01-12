@@ -33,7 +33,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.ViewModelProvider;
 import com.xpchain.wallet.R;
-import io.xpchainj.core.Address;
+import org.bitcoinj.core.Address;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

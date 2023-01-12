@@ -30,17 +30,17 @@ import com.xpchain.wallet.WalletApplication;
 import com.xpchain.wallet.data.AbstractWalletLiveData;
 import com.xpchain.wallet.data.ConfigOwnNameLiveData;
 import com.xpchain.wallet.util.Qr;
-import io.xpchainj.core.Address;
-import io.xpchainj.core.Coin;
-import io.xpchainj.core.LegacyAddress;
-import io.xpchainj.core.Transaction;
-import io.xpchainj.uri.BitcoinURI;
-import io.xpchainj.utils.Threading;
-import io.xpchainj.wallet.Wallet;
-import io.xpchainj.wallet.listeners.WalletChangeEventListener;
-import io.xpchainj.wallet.listeners.WalletCoinsReceivedEventListener;
-import io.xpchainj.wallet.listeners.WalletCoinsSentEventListener;
-import io.xpchainj.wallet.listeners.WalletReorganizeEventListener;
+import org.bitcoinj.core.Address;
+import org.bitcoinj.core.Coin;
+import org.bitcoinj.core.LegacyAddress;
+import org.bitcoinj.core.Transaction;
+import org.bitcoinj.uri.BitcoinURI;
+import org.bitcoinj.utils.Threading;
+import org.bitcoinj.wallet.Wallet;
+import org.bitcoinj.wallet.listeners.WalletChangeEventListener;
+import org.bitcoinj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.bitcoinj.wallet.listeners.WalletCoinsSentEventListener;
+import org.bitcoinj.wallet.listeners.WalletReorganizeEventListener;
 
 import java.util.Locale;
 
@@ -122,7 +122,7 @@ public class WalletAddressViewModel extends AndroidViewModel {
         protected void load() {
             final Wallet wallet = getWallet();
             AsyncTask.execute(() -> {
-                io.xpchainj.core.Context.propagate(Constants.CONTEXT);
+                org.bitcoinj.core.Context.propagate(Constants.CONTEXT);
                 postValue(wallet.currentReceiveAddress());
             });
         }

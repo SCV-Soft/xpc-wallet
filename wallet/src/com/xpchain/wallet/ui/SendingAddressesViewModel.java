@@ -27,10 +27,10 @@ import com.xpchain.wallet.Constants;
 import com.xpchain.wallet.WalletApplication;
 import com.xpchain.wallet.addressbook.AddressBookEntry;
 import com.xpchain.wallet.data.AbstractWalletLiveData;
-import io.xpchainj.core.Address;
-import io.xpchainj.core.ECKey;
-import io.xpchainj.core.LegacyAddress;
-import io.xpchainj.wallet.Wallet;
+import org.bitcoinj.core.Address;
+import org.bitcoinj.core.ECKey;
+import org.bitcoinj.core.LegacyAddress;
+import org.bitcoinj.wallet.Wallet;
 
 import java.util.HashSet;
 import java.util.List;

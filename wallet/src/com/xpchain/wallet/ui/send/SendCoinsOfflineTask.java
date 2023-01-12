@@ -20,14 +20,14 @@ package com.xpchain.wallet.ui.send;
 import android.os.Handler;
 import android.os.Looper;
 import com.xpchain.wallet.Constants;
-import io.xpchainj.core.Coin;
-import io.xpchainj.core.ECKey;
-import io.xpchainj.core.InsufficientMoneyException;
-import io.xpchainj.core.Transaction;
-import io.xpchainj.wallet.SendRequest;
-import io.xpchainj.wallet.Wallet;
-import io.xpchainj.wallet.Wallet.CompletionException;
-import io.xpchainj.wallet.Wallet.CouldNotAdjustDownwards;
+import org.bitcoinj.core.Coin;
+import org.bitcoinj.core.ECKey;
+import org.bitcoinj.core.InsufficientMoneyException;
+import org.bitcoinj.core.Transaction;
+import org.bitcoinj.wallet.SendRequest;
+import org.bitcoinj.wallet.Wallet;
+import org.bitcoinj.wallet.Wallet.CompletionException;
+import org.bitcoinj.wallet.Wallet.CouldNotAdjustDownwards;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -49,7 +49,7 @@ public abstract class SendCoinsOfflineTask {
 
     public final void sendCoinsOffline(final SendRequest sendRequest) {
         backgroundHandler.post(() -> {
-            io.xpchainj.core.Context.propagate(Constants.CONTEXT);
+            org.bitcoinj.core.Context.propagate(Constants.CONTEXT);
 
             try {
                 log.info("sending: {}", sendRequest);

@@ -50,7 +50,7 @@ import com.xpchain.wallet.ui.ShowPasswordCheckListener;
 import com.xpchain.wallet.util.Crypto;
 import com.xpchain.wallet.util.Toast;
 import com.xpchain.wallet.util.WalletUtils;
-import io.xpchainj.wallet.Wallet;
+import org.bitcoinj.wallet.Wallet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -33,12 +33,18 @@ import com.xpchain.wallet.data.ConfigOwnNameLiveData;
 import com.xpchain.wallet.data.SelectedExchangeRateLiveData;
 import com.xpchain.wallet.util.Bluetooth;
 import com.xpchain.wallet.util.Qr;
-import io.xpchainj.core.Address;
-import io.xpchainj.core.Coin;
-import io.xpchainj.protocols.payments.PaymentProtocol;
-import io.xpchainj.script.Script;
-import io.xpchainj.uri.BitcoinURI;
-import io.xpchainj.wallet.Wallet;
+//import org.bitcoinj.core.Address;
+//import org.bitcoinj.core.Coin;
+//import org.bitcoinj.protocols.payments.PaymentProtocol;
+//import org.bitcoinj.script.Script;
+//import org.bitcoinj.uri.BitcoinURI;
+//import org.bitcoinj.wallet.Wallet;
+import org.bitcoinj.core.Address;
+import org.bitcoinj.core.Coin;
+import org.bitcoinj.protocols.payments.PaymentProtocol;
+import org.bitcoinj.script.Script;
+import org.bitcoinj.uri.BitcoinURI;
+import org.bitcoinj.wallet.Wallet;
 
 /**
  * @author Andreas Schildbach
@@ -137,7 +143,7 @@ public class RequestCoinsViewModel extends AndroidViewModel {
                 final Wallet wallet = getWallet();
                 final Script.ScriptType outputScriptType = this.outputScriptType;
                 AsyncTask.execute(() -> {
-                    io.xpchainj.core.Context.propagate(Constants.CONTEXT);
+                    org.bitcoinj.core.Context.propagate(Constants.CONTEXT);
                     postValue(outputScriptType != null ? wallet.freshReceiveAddress(outputScriptType)
                             : wallet.freshReceiveAddress());
                 });

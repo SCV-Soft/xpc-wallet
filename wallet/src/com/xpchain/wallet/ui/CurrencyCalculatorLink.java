@@ -21,9 +21,9 @@ import android.view.View;
 import androidx.annotation.Nullable;
 import com.xpchain.wallet.Constants;
 import com.xpchain.wallet.ui.CurrencyAmountView.Listener;
-import io.xpchainj.core.Coin;
-import io.xpchainj.utils.ExchangeRate;
-import io.xpchainj.utils.Fiat;
+import org.bitcoinj.core.Coin;
+import org.bitcoinj.utils.ExchangeRate;
+import org.bitcoinj.utils.Fiat;
 
 /**
  * @author Andreas Schildbach

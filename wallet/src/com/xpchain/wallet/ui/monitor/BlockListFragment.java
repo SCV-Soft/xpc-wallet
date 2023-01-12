@@ -38,9 +38,9 @@ import com.xpchain.wallet.addressbook.AddressBookEntry;
 import com.xpchain.wallet.ui.AbstractWalletActivity;
 import com.xpchain.wallet.ui.AbstractWalletActivityViewModel;
 import com.xpchain.wallet.ui.StickToTopLinearLayoutManager;
-import io.xpchainj.core.Sha256Hash;
-import io.xpchainj.core.StoredBlock;
-import io.xpchainj.wallet.Wallet;
+import org.bitcoinj.core.Sha256Hash;
+import org.bitcoinj.core.StoredBlock;
+import org.bitcoinj.wallet.Wallet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

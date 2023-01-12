@@ -22,9 +22,9 @@ import android.os.Parcelable;
 import androidx.annotation.Nullable;
 import com.google.common.base.Objects;
 import com.xpchain.wallet.Constants;
-import io.xpchainj.core.Address;
-import io.xpchainj.core.AddressFormatException;
-import io.xpchainj.core.NetworkParameters;
+import org.bitcoinj.core.Address;
+import org.bitcoinj.core.AddressFormatException;
+import org.bitcoinj.core.NetworkParameters;
 
 /**
  * @author Andreas Schildbach

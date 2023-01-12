@@ -28,8 +28,8 @@ import androidx.annotation.Nullable;
 import com.xpchain.wallet.Constants;
 import com.xpchain.wallet.R;
 import com.xpchain.wallet.util.MonetarySpannable;
-import io.xpchainj.core.Monetary;
-import io.xpchainj.utils.MonetaryFormat;
+import org.bitcoinj.core.Monetary;
+import org.bitcoinj.utils.MonetaryFormat;
 
 /**
  * @author Andreas Schildbach

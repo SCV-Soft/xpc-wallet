@@ -52,9 +52,9 @@ import com.xpchain.wallet.util.Crypto;
 import com.xpchain.wallet.util.Iso8601Format;
 import com.xpchain.wallet.util.Toast;
 import com.xpchain.wallet.util.WalletUtils;
-import io.xpchainj.wallet.Protos;
-import io.xpchainj.wallet.Wallet;
-import io.xpchainj.wallet.WalletProtobufSerializer;
+import org.bitcoinj.wallet.Protos;
+import org.bitcoinj.wallet.Wallet;
+import org.bitcoinj.wallet.WalletProtobufSerializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

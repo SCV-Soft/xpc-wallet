@@ -18,7 +18,7 @@
 package com.xpchain.wallet.data;
 
 import com.xpchain.wallet.WalletApplication;
-import io.xpchainj.wallet.Wallet;
+import org.bitcoinj.wallet.Wallet;
 
 /**
  * @author Andreas Schildbach

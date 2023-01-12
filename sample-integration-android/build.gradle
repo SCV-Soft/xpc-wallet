@@ -8,7 +8,6 @@ configurations {
 
 dependencies {
     implementation project(':integration-android')
-    implementation 'io.xpchainj:xpchainj-core:0.14.7'
 }
 
 android {

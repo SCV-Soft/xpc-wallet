@@ -40,12 +40,12 @@ import com.xpchain.wallet.ui.WalletActivity;
 import com.xpchain.wallet.ui.send.SendCoinsActivity;
 import com.xpchain.wallet.util.GenericUtils;
 import com.xpchain.wallet.util.MonetarySpannable;
-import io.xpchainj.core.Coin;
-import io.xpchainj.core.NetworkParameters;
-import io.xpchainj.utils.ExchangeRate;
-import io.xpchainj.utils.Fiat;
-import io.xpchainj.utils.MonetaryFormat;
-import io.xpchainj.wallet.Wallet.BalanceType;
+import org.bitcoinj.core.Coin;
+import org.bitcoinj.core.NetworkParameters;
+import org.bitcoinj.utils.ExchangeRate;
+import org.bitcoinj.utils.Fiat;
+import org.bitcoinj.utils.MonetaryFormat;
+import org.bitcoinj.wallet.Wallet.BalanceType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

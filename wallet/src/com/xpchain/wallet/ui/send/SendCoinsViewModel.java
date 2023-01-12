@@ -31,8 +31,8 @@ import com.xpchain.wallet.data.SelectedExchangeRateLiveData;
 import com.xpchain.wallet.data.TransactionLiveData;
 import com.xpchain.wallet.data.WalletBalanceLiveData;
 import com.xpchain.wallet.ui.AddressAndLabel;
-import io.xpchainj.core.Transaction;
-import io.xpchainj.wallet.Wallet.BalanceType;
+import org.bitcoinj.core.Transaction;
+import org.bitcoinj.wallet.Wallet.BalanceType;
 
 import java.util.List;
 

@@ -33,7 +33,7 @@ import androidx.lifecycle.ViewModelProvider;
 import com.xpchain.wallet.Constants;
 import com.xpchain.wallet.R;
 import com.xpchain.wallet.util.WalletUtils;
-import io.xpchainj.core.Address;
+import org.bitcoinj.core.Address;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

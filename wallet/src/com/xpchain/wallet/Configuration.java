@@ -26,8 +26,8 @@ import com.google.common.base.Splitter;
 import com.google.common.base.Strings;
 import com.google.common.net.HostAndPort;
 import com.xpchain.wallet.util.Formats;
-import io.xpchainj.core.Coin;
-import io.xpchainj.utils.MonetaryFormat;
+import org.bitcoinj.core.Coin;
+import org.bitcoinj.utils.MonetaryFormat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

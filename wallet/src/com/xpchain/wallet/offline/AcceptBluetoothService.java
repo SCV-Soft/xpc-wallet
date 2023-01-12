@@ -36,9 +36,9 @@ import com.xpchain.wallet.data.BlockchainServiceLiveData;
 import com.xpchain.wallet.data.WalletLiveData;
 import com.xpchain.wallet.util.CrashReporter;
 import com.xpchain.wallet.util.Toast;
-import io.xpchainj.core.Transaction;
-import io.xpchainj.core.VerificationException;
-import io.xpchainj.wallet.Wallet;
+import org.bitcoinj.core.Transaction;
+import org.bitcoinj.core.VerificationException;
+import org.bitcoinj.wallet.Wallet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

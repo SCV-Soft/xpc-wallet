@@ -44,8 +44,8 @@ import com.xpchain.wallet.data.PaymentIntent;
 import com.xpchain.wallet.ui.send.SendCoinsActivity;
 import com.xpchain.wallet.util.Qr;
 import com.xpchain.wallet.util.Toast;
-import io.xpchainj.core.Address;
-import io.xpchainj.uri.BitcoinURI;
+import org.bitcoinj.core.Address;
+import org.bitcoinj.uri.BitcoinURI;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

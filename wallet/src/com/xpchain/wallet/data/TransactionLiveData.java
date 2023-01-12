@@ -23,8 +23,8 @@ import android.net.Uri;
 import android.os.Handler;
 import androidx.lifecycle.LiveData;
 import com.xpchain.wallet.WalletApplication;
-import io.xpchainj.core.Transaction;
-import io.xpchainj.core.TransactionConfidence;
+import org.bitcoinj.core.Transaction;
+import org.bitcoinj.core.TransactionConfidence;
 
 /**
  * @author Andreas Schildbach

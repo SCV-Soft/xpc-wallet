@@ -84,24 +84,24 @@ import com.xpchain.wallet.util.Bluetooth;
 import com.xpchain.wallet.util.Nfc;
 import com.xpchain.wallet.util.WalletUtils;
 import org.bitcoin.protocols.payments.Protos.Payment;
-import io.xpchainj.core.Address;
-import io.xpchainj.core.AddressFormatException;
-import io.xpchainj.core.Coin;
-import io.xpchainj.core.InsufficientMoneyException;
-import io.xpchainj.core.PrefixedChecksummedBytes;
-import io.xpchainj.core.Transaction;
-import io.xpchainj.core.TransactionConfidence;
-import io.xpchainj.core.TransactionConfidence.ConfidenceType;
-import io.xpchainj.core.VerificationException;
-import io.xpchainj.protocols.payments.PaymentProtocol;
-import io.xpchainj.utils.MonetaryFormat;
-import io.xpchainj.utils.Threading;
-import io.xpchainj.wallet.KeyChain.KeyPurpose;
-import io.xpchainj.wallet.SendRequest;
-import io.xpchainj.wallet.Wallet;
-import io.xpchainj.wallet.Wallet.BalanceType;
-import io.xpchainj.wallet.Wallet.CouldNotAdjustDownwards;
-import io.xpchainj.wallet.Wallet.DustySendRequested;
+import org.bitcoinj.core.Address;
+import org.bitcoinj.core.AddressFormatException;
+import org.bitcoinj.core.Coin;
+import org.bitcoinj.core.InsufficientMoneyException;
+import org.bitcoinj.core.PrefixedChecksummedBytes;
+import org.bitcoinj.core.Transaction;
+import org.bitcoinj.core.TransactionConfidence;
+import org.bitcoinj.core.TransactionConfidence.ConfidenceType;
+import org.bitcoinj.core.VerificationException;
+import org.bitcoinj.protocols.payments.PaymentProtocol;
+import org.bitcoinj.utils.MonetaryFormat;
+import org.bitcoinj.utils.Threading;
+import org.bitcoinj.wallet.KeyChain.KeyPurpose;
+import org.bitcoinj.wallet.SendRequest;
+import org.bitcoinj.wallet.Wallet;
+import org.bitcoinj.wallet.Wallet.BalanceType;
+import org.bitcoinj.wallet.Wallet.CouldNotAdjustDownwards;
+import org.bitcoinj.wallet.Wallet.DustySendRequested;
 import org.bouncycastle.crypto.params.KeyParameter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -350,7 +350,7 @@ public final class SendCoinsFragment extends Fragment {
             final String mimeType = intent.getType();
 
             if ((Intent.ACTION_VIEW.equals(action) || NfcAdapter.ACTION_NDEF_DISCOVERED.equals(action))
-                    && intentUri != null && "bitcoin".equals(scheme)) {
+                    && intentUri != null && "org/bitcoin".equals(scheme)) {
                 initStateFromBitcoinUri(intentUri);
             } else if ((NfcAdapter.ACTION_NDEF_DISCOVERED.equals(action))
                     && PaymentProtocol.MIMETYPE_PAYMENTREQUEST.equals(mimeType)) {

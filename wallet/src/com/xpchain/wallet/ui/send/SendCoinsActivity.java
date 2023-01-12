@@ -31,7 +31,7 @@ import com.xpchain.wallet.service.BlockchainService;
 import com.xpchain.wallet.ui.AbstractWalletActivity;
 import com.xpchain.wallet.ui.Event;
 import com.xpchain.wallet.ui.HelpDialogFragment;
-import io.xpchainj.core.Coin;
+import org.bitcoinj.core.Coin;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

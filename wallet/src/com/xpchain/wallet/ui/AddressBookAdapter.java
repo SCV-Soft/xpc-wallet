@@ -40,9 +40,9 @@ import com.xpchain.wallet.Constants;
 import com.xpchain.wallet.R;
 import com.xpchain.wallet.addressbook.AddressBookEntry;
 import com.xpchain.wallet.util.WalletUtils;
-import io.xpchainj.core.Address;
-import io.xpchainj.core.ECKey;
-import io.xpchainj.wallet.Wallet;
+import org.bitcoinj.core.Address;
+import org.bitcoinj.core.ECKey;
+import org.bitcoinj.wallet.Wallet;
 
 import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;

@@ -26,7 +26,7 @@ import androidx.lifecycle.MediatorLiveData;
 import com.xpchain.wallet.WalletApplication;
 import com.xpchain.wallet.data.BlockchainServiceLiveData;
 import com.xpchain.wallet.service.BlockchainService;
-import io.xpchainj.core.Peer;
+import org.bitcoinj.core.Peer;
 
 import java.net.InetAddress;
 import java.util.HashMap;

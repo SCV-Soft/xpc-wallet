@@ -29,12 +29,12 @@ import com.xpchain.wallet.addressbook.AddressBookDatabase;
 import com.xpchain.wallet.addressbook.AddressBookEntry;
 import com.xpchain.wallet.data.AbstractWalletLiveData;
 import com.xpchain.wallet.data.ConfigOwnNameLiveData;
-import io.xpchainj.core.Address;
-import io.xpchainj.core.ECKey;
-import io.xpchainj.core.LegacyAddress;
-import io.xpchainj.utils.Threading;
-import io.xpchainj.wallet.Wallet;
-import io.xpchainj.wallet.listeners.KeyChainEventListener;
+import org.bitcoinj.core.Address;
+import org.bitcoinj.core.ECKey;
+import org.bitcoinj.core.LegacyAddress;
+import org.bitcoinj.utils.Threading;
+import org.bitcoinj.wallet.Wallet;
+import org.bitcoinj.wallet.listeners.KeyChainEventListener;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -38,9 +38,9 @@ import com.xpchain.wallet.exchangerate.ExchangeRateEntry;
 import com.xpchain.wallet.service.BlockchainState;
 import com.xpchain.wallet.ui.send.FeeCategory;
 import com.xpchain.wallet.ui.send.SendCoinsActivity;
-import io.xpchainj.core.Coin;
-import io.xpchainj.core.NetworkParameters;
-import io.xpchainj.utils.Fiat;
+import org.bitcoinj.core.Coin;
+import org.bitcoinj.core.NetworkParameters;
+import org.bitcoinj.utils.Fiat;
 
 /**
  * @author Andreas Schildbach

@@ -20,9 +20,9 @@ package com.xpchain.wallet.ui.send;
 import android.os.Handler;
 import android.os.Looper;
 import com.xpchain.wallet.Constants;
-import io.xpchainj.crypto.KeyCrypter;
-import io.xpchainj.crypto.KeyCrypterScrypt;
-import io.xpchainj.wallet.Wallet;
+import org.bitcoinj.crypto.KeyCrypter;
+import org.bitcoinj.crypto.KeyCrypterScrypt;
+import org.bitcoinj.wallet.Wallet;
 import org.bouncycastle.crypto.params.KeyParameter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -51,7 +51,7 @@ public abstract class DeriveKeyTask {
         final KeyCrypter keyCrypter = checkNotNull(wallet.getKeyCrypter());
 
         backgroundHandler.post(() -> {
-            io.xpchainj.core.Context.propagate(Constants.CONTEXT);
+            org.bitcoinj.core.Context.propagate(Constants.CONTEXT);
 
             // Key derivation takes time.
             KeyParameter key = keyCrypter.deriveKey(password);

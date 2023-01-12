@@ -36,8 +36,8 @@ import com.xpchain.wallet.addressbook.AddressBookDao;
 import com.xpchain.wallet.addressbook.AddressBookDatabase;
 import com.xpchain.wallet.addressbook.AddressBookEntry;
 import com.xpchain.wallet.util.WalletUtils;
-import io.xpchainj.core.Address;
-import io.xpchainj.wallet.Wallet;
+import org.bitcoinj.core.Address;
+import org.bitcoinj.wallet.Wallet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

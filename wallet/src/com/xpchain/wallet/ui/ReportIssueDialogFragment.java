@@ -42,12 +42,12 @@ import com.xpchain.wallet.WalletApplication;
 import com.xpchain.wallet.util.Bluetooth;
 import com.xpchain.wallet.util.CrashReporter;
 import com.xpchain.wallet.util.Installer;
-import io.xpchainj.core.Sha256Hash;
-import io.xpchainj.core.Transaction;
-import io.xpchainj.core.TransactionOutput;
-import io.xpchainj.core.Utils;
-import io.xpchainj.script.ScriptException;
-import io.xpchainj.wallet.Wallet;
+import org.bitcoinj.core.Sha256Hash;
+import org.bitcoinj.core.Transaction;
+import org.bitcoinj.core.TransactionOutput;
+import org.bitcoinj.core.Utils;
+import org.bitcoinj.script.ScriptException;
+import org.bitcoinj.wallet.Wallet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

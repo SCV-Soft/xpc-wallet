@@ -17,6 +17,7 @@
 
 package com.xpchain.wallet.service;
 
+import android.annotation.SuppressLint;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
@@ -61,34 +62,35 @@ import com.xpchain.wallet.ui.WalletActivity;
 import com.xpchain.wallet.ui.preference.ResolveDnsTask;
 import com.xpchain.wallet.util.CrashReporter;
 import com.xpchain.wallet.util.WalletUtils;
-import io.xpchainj.core.Address;
-import io.xpchainj.core.Block;
-import io.xpchainj.core.BlockChain;
-import io.xpchainj.core.CheckpointManager;
-import io.xpchainj.core.Coin;
-import io.xpchainj.core.FilteredBlock;
-import io.xpchainj.core.Peer;
-import io.xpchainj.core.PeerAddress;
-import io.xpchainj.core.PeerGroup;
-import io.xpchainj.core.Sha256Hash;
-import io.xpchainj.core.StoredBlock;
-import io.xpchainj.core.Transaction;
-import io.xpchainj.core.TransactionBroadcast;
-import io.xpchainj.core.TransactionConfidence.ConfidenceType;
-import io.xpchainj.core.Utils;
-import io.xpchainj.core.VersionMessage;
-import io.xpchainj.core.listeners.AbstractPeerDataEventListener;
-import io.xpchainj.core.listeners.PeerConnectedEventListener;
-import io.xpchainj.core.listeners.PeerDataEventListener;
-import io.xpchainj.core.listeners.PeerDisconnectedEventListener;
-import io.xpchainj.store.BlockStore;
-import io.xpchainj.store.BlockStoreException;
-import io.xpchainj.store.SPVBlockStore;
-import io.xpchainj.utils.MonetaryFormat;
-import io.xpchainj.utils.Threading;
-import io.xpchainj.wallet.Wallet;
-import io.xpchainj.wallet.listeners.WalletCoinsReceivedEventListener;
-import io.xpchainj.wallet.listeners.WalletCoinsSentEventListener;
+import org.bitcoinj.core.Address;
+import org.bitcoinj.core.Block;
+import org.bitcoinj.core.BlockChain;
+import org.bitcoinj.core.CheckpointManager;
+import org.bitcoinj.core.Coin;
+import org.bitcoinj.core.FilteredBlock;
+import org.bitcoinj.core.Peer;
+import org.bitcoinj.core.PeerAddress;
+import org.bitcoinj.core.PeerGroup;
+import org.bitcoinj.core.Sha256Hash;
+import org.bitcoinj.core.StoredBlock;
+import org.bitcoinj.core.Transaction;
+import org.bitcoinj.core.TransactionBroadcast;
+import org.bitcoinj.core.TransactionConfidence.ConfidenceType;
+import org.bitcoinj.core.Utils;
+import org.bitcoinj.core.VersionMessage;
+import org.bitcoinj.core.listeners.AbstractPeerDataEventListener;
+import org.bitcoinj.core.listeners.BlockchainDownloadEventListener;
+import org.bitcoinj.core.listeners.PeerConnectedEventListener;
+import org.bitcoinj.core.listeners.PeerDataEventListener;
+import org.bitcoinj.core.listeners.PeerDisconnectedEventListener;
+import org.bitcoinj.store.BlockStore;
+import org.bitcoinj.store.BlockStoreException;
+import org.bitcoinj.store.SPVBlockStore;
+import org.bitcoinj.utils.MonetaryFormat;
+import org.bitcoinj.utils.Threading;
+import org.bitcoinj.wallet.Wallet;
+import org.bitcoinj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.bitcoinj.wallet.listeners.WalletCoinsSentEventListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -464,6 +466,7 @@ public class BlockchainService extends LifecycleService {
         return super.onUnbind(intent);
     }
 
+    @SuppressLint("WrongConstant")
     @Override
     public void onCreate() {
         serviceUpTime = Stopwatch.createStarted();
@@ -687,7 +690,7 @@ public class BlockchainService extends LifecycleService {
                 log.info("[!!!???!!!] starting {} asynchronously", peerGroup);
                 log.info("starting {} asynchronously", peerGroup);
                 peerGroup.startAsync();
-                peerGroup.startBlockChainDownload(blockchainDownloadListener);
+                peerGroup.startBlockChainDownload((BlockchainDownloadEventListener) blockchainDownloadListener);
 
                 postDelayedStopSelf(DateUtils.MINUTE_IN_MILLIS / 2);
             }
@@ -734,6 +737,7 @@ public class BlockchainService extends LifecycleService {
         return START_NOT_STICKY;
     }
 
+    @SuppressLint("RestrictedApi")
     @Override
     public void onDestroy() {
         log.debug(".onDestroy()");
