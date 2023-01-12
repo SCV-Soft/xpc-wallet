@@ -297,9 +297,9 @@ public class BlockchainService extends LifecycleService {
         }
     }
 
-    private final PeerDataEventListener blockchainDownloadListener = new BlockchainDownloadListener();
+    private final BlockchainDownloadEventListener blockchainDownloadListener = new BlockchainDownloadListener();
 
-    private class BlockchainDownloadListener extends AbstractPeerDataEventListener implements Runnable {
+    private class BlockchainDownloadListener implements Runnable, BlockchainDownloadEventListener {
         private final AtomicLong lastMessageTime = new AtomicLong(0);
         private final AtomicInteger blocksToDownload = new AtomicInteger();
         private final AtomicInteger blocksLeft = new AtomicInteger();
@@ -690,7 +690,7 @@ public class BlockchainService extends LifecycleService {
                 log.info("[!!!???!!!] starting {} asynchronously", peerGroup);
                 log.info("starting {} asynchronously", peerGroup);
                 peerGroup.startAsync();
-                peerGroup.startBlockChainDownload((BlockchainDownloadEventListener) blockchainDownloadListener);
+                peerGroup.startBlockChainDownload(blockchainDownloadListener);
 
                 postDelayedStopSelf(DateUtils.MINUTE_IN_MILLIS / 2);
             }
