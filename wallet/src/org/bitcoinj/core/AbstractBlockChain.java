@@ -616,7 +616,7 @@ public abstract class AbstractBlockChain {
                     block.getTransactions() == null ? block : block.cloneAsHeader(), txOutChanges);
             versionTally.add(block.getVersion());
             setChainHead(newStoredBlock);
-            if (log.isDebugEnabled())
+            //if (log.isDebugEnabled())
                 log.debug("Chain is now {} blocks high, running listeners", newStoredBlock.getHeight());
             informListenersForNewBlock(block, NewBlockType.BEST_CHAIN, filteredTxHashList, filteredTxn, newStoredBlock);
         } else {

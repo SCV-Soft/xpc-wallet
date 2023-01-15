@@ -68,8 +68,8 @@ public final class Constants {
 
     public final static class Files {
         // TODO : Make it right param
-        private static final String FILENAME_NETWORK_SUFFIX = NETWORK_PARAMETERS.getId()
-                .equals("io.xpchain.production") ? "_xpc" : "_xpc_testnet";
+        private static final String FILENAME_NETWORK_SUFFIX = "_xpc"; // NETWORK_PARAMETERS.getId()
+                // .equals("io.xpchain.production") ? "_xpc" : "_xpc_testnet";
 
         /** Filename of the wallet. */
         public static final String WALLET_FILENAME_PROTOBUF = "wallet-protobuf" + FILENAME_NETWORK_SUFFIX;

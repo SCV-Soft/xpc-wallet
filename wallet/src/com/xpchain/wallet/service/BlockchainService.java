@@ -539,11 +539,15 @@ public class BlockchainService extends LifecycleService {
                 try {
                     blockStore = new SPVBlockStore(Constants.NETWORK_PARAMETERS, blockChainFile,
                             Constants.Files.BLOCKCHAIN_STORE_CAPACITY, true);
+                    // log.info("[!!!???!!!] init blockStore : {}", blockStore.getChainHead());
                     blockStore.getChainHead(); // detect corruptions as early as possible
 
                     log.info("[!!!???!!!] wallet : {}", wallet);
-                    log.info("[!!!???!!!] blockStore : {}", blockStore);
-                    log.info("[!!!???!!!] blockChainFile : {}", blockChainFile);
+                    log.info("[!!!???!!!] init blockStore Chainhead : {}", blockStore.getChainHead());
+                    log.info("[!!!???!!!] init blockStore Genesisblock : {}", blockStore.getParams().getGenesisBlock());
+                    log.info("[!!!???!!!] init blockStore Addr Seed : {}", blockStore.getParams().getAddrSeeds());
+                    log.info("[!!!???!!!] init blockStore DNS Seed : {}", blockStore.getParams().getDnsSeeds());
+                    log.info("[!!!???!!!] init blockChainFile : {}", blockChainFile.getAbsolutePath());
 
                     final long earliestKeyCreationTimeSecs = wallet.getEarliestKeyCreationTime();
 
@@ -578,6 +582,11 @@ public class BlockchainService extends LifecycleService {
                     log.info("[!!!???!!!] blockStore : {}", blockStore);
                     //blockChain = new BlockChain(Constants.NETWORK_PARAMETERS, wallet, blockStore);
                     blockChain = new BlockChain(Constants.NETWORK_PARAMETERS, blockStore);
+                    log.info("[!!!???!!!] init NetworkParams : {}", Constants.NETWORK_PARAMETERS.getGenesisBlock().toString());
+                    log.info("[!!!???!!!] init getAddrSeeds : {}", Constants.NETWORK_PARAMETERS.getAddrSeeds().toString());
+                    log.info("[!!!???!!!] init getId : {}", Constants.NETWORK_PARAMETERS.getId().toString());
+                    log.info("[!!!???!!!] init blockStore.getChainHead().getHeight() : {}", blockStore.getChainHead().getHeight());
+                    log.info("[!!!???!!!] init blockStore.getChainHead().getHeader().getHashAsString() : {}", blockStore.getChainHead().getHeader().getHashAsString());
                     log.info("[!!!???!!!] blockChain : {}", blockChain);
                 } catch (final BlockStoreException x) {
                     throw new Error("blockchain cannot be created", x);
@@ -620,10 +629,10 @@ public class BlockchainService extends LifecycleService {
                 // consistency check
                 final int walletLastBlockSeenHeight = wallet.getLastBlockSeenHeight();
                 final int bestChainHeight = blockChain.getBestChainHeight();
+                log.info("[!!!???!!!] hmm... bestChainHeight : {}", bestChainHeight);
                 log.info("[!!!???!!!] hmm... chainHead : {}", blockChain.getChainHead());
                 log.info("[!!!???!!!] hmm... : {}", blockChain.getChainHead().getHeader().getHash() );
                 log.info("[!!!???!!!] hmm... getHeight : {}", blockChain.getChainHead().getHeight() );
-                log.info("[!!!???!!!] bestChainHeight : {}", bestChainHeight);
                 if (walletLastBlockSeenHeight != -1 && walletLastBlockSeenHeight != bestChainHeight) {
                     final String message = "wallet/blockchain out of sync: " + walletLastBlockSeenHeight + "/"
                             + bestChainHeight;
@@ -653,7 +662,9 @@ public class BlockchainService extends LifecycleService {
                 log.info("[!!!???!!!] maxConnectedPeers : {}", maxConnectedPeers);
                 log.info("[!!!???!!!] trustedPeers : {}", trustedPeers);
                 log.info("[!!!???!!!] trustedPeerOnly : {}", trustedPeerOnly);
-                log.info("[!!!???!!!] peerGroup : {}", peerGroup.toString());
+                log.info("[!!!???!!!] peerGroup : {}", peerGroup.getConnectedPeers());
+                log.info("[!!!???!!!] peerGroup : {}", peerGroup.getPendingPeers());
+                log.info("[!!!???!!!] peerGroup : {}", peerGroup.getDownloadPeer());
 
                 final ResolveDnsTask resolveDnsTask = new ResolveDnsTask(backgroundHandler) {
                     @Override

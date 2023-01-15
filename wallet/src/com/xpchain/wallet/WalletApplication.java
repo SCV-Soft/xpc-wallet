@@ -319,7 +319,7 @@ public class WalletApplication extends Application {
     }
 
     public int maxConnectedPeers() {
-        return activityManager.getMemoryClass() <= 128 ? 4 : 6;
+        return activityManager.getMemoryClass() <= 128 ? 2 : 2;
     }
 
     public int scryptIterationsTarget() {

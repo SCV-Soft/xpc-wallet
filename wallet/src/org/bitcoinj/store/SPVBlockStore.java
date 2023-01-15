@@ -117,13 +117,16 @@ public class SPVBlockStore implements BlockStore {
         checkArgument(capacity > 0);
         try {
             boolean exists = file.exists();
+            //boolean exists = false;
             // Set up the backing file.
             randomAccessFile = new RandomAccessFile(file, "rw");
             fileLength = getFileSize(capacity);
             if (!exists) {
                 log.info("Creating new SPV block chain file " + file);
+                log.info("[!!!???!!!] Creating new SPV block chain file " + file);
                 randomAccessFile.setLength(fileLength);
             } else {
+                log.info("[!!!???!!!] Creating exist SPV block chain file " + file);
                 final long currentLength = randomAccessFile.length();
                 if (currentLength != fileLength) {
                     if ((currentLength - FILE_PROLOGUE_BYTES) % RECORD_SIZE != 0)
