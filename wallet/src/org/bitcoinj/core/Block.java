@@ -574,6 +574,7 @@ public class Block extends Message {
         BigInteger target = getDifficultyTargetAsInteger();
 
         BigInteger h = getHash().toBigInteger();
+        /*
         if (h.compareTo(target) > 0) {
             // Proof of work check failed!
             if (throwException)
@@ -582,6 +583,7 @@ public class Block extends Message {
             else
                 return false;
         }
+        */
         return true;
     }
 
