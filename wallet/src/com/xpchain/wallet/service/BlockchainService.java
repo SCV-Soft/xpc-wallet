@@ -239,7 +239,7 @@ public class BlockchainService extends LifecycleService {
             summaryNotification.setContentText(text);
         }
         summaryNotification
-                .setContentIntent(PendingIntent.getActivity(this, 0, new Intent(this, WalletActivity.class), 0));
+                .setContentIntent(PendingIntent.getActivity(this, 0, new Intent(this, WalletActivity.class), PendingIntent.FLAG_MUTABLE));
         nm.notify(Constants.NOTIFICATION_ID_COINS_RECEIVED, summaryNotification.build());
 
         // child notification
@@ -262,7 +262,7 @@ public class BlockchainService extends LifecycleService {
                 childNotification.setContentText(addressStr);
         }
         childNotification
-                .setContentIntent(PendingIntent.getActivity(this, 0, new Intent(this, WalletActivity.class), 0));
+                .setContentIntent(PendingIntent.getActivity(this, 0, new Intent(this, WalletActivity.class), PendingIntent.FLAG_MUTABLE));
         childNotification.setSound(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.coins_received));
         nm.notify(transactionHash.toString(), Constants.NOTIFICATION_ID_COINS_RECEIVED, childNotification.build());
     }
