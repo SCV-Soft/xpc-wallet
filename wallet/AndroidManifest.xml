@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.xpchain.wallet"
     android:installLocation="internalOnly"
-    android:versionCode="10002"
-    android:versionName="1.0.2">
+    android:versionCode="10003"
+    android:versionName="1.0.3">
 
     <uses-sdk
         android:minSdkVersion="24"
